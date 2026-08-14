@@ -23,7 +23,7 @@ analyze_voc.py 의 load_and_prepare() / build_aggregates() 를 그대로 재사�
 집계 로직을 이중으로 관리하지 않는다.
 
 레이아웃 (채팅에서 보여드린 연도별 종합 대시보드와 동일한 구성)
-  - 사이드바 연도 다중 선택 (선택 연도별로 전체 화면이 재계산됨)
+  - 상단 연도 버튼 (전체 / 2021 / 2022 / ... ) — 버튼을 누르면 해당 연도만 분석
   - 연도별 접수 현황 (선택 연도 강조)
   - KPI 카드 4개
   - 01 채널 & 유형   : 등록채널 / 요구유형 / 고객유형 / 시간대
@@ -177,6 +177,10 @@ st.markdown(
     div[data-testid="stMetric"] {background: #f7f7f5; border-radius: 10px; padding: 14px 16px;}
     .section-label {font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase;
         color: #898781; margin: 1.5rem 0 0.5rem;}
+    /* 연도 버튼 스타일: 선택된 연도는 primary(파란색), 나머지는 secondary(회색) */
+    div[data-testid="stHorizontalBlock"] button[kind="secondary"] {
+        background: #f0efe9; border-color: #e1e0d9; color: #52514e;
+    }
     </style>
     """,
     unsafe_allow_html=True,
@@ -188,19 +192,33 @@ st.title("보안검색 서비스 VOC 분석 대시보드")
 st.caption(f"분석기간 {agg['meta']['date_min']} ~ {agg['meta']['date_max']}  ·  전체 접수 {agg['meta']['total']:,}건")
 
 # ---------------------------------------------------------------------------
-# 사이드바: 연도 선택
+# 연도 선택: 버튼을 눌러서 연도별로 분석
+#   "전체" + 각 연도 버튼을 한 줄로 배치. 클릭한 연도가 선택되며
+#   session_state 에 저장되어 다음 rerun에서도 유지된다.
 # ---------------------------------------------------------------------------
 years_available = sorted(int(y) for y in raw_df["연도"].dropna().unique())
 
-st.sidebar.header("연도 선택")
-selected_years = st.sidebar.multiselect(
-    "분석할 연도를 선택하세요 (미선택 시 전체 기간)",
-    options=years_available,
-    default=years_available,
-)
-if not selected_years:
+if "selected_year" not in st.session_state:
+    st.session_state.selected_year = "전체"
+
+st.subheader("연도 선택")
+year_options = ["전체"] + [str(y) for y in years_available]
+cols = st.columns(len(year_options))
+for col, y in zip(cols, year_options):
+    is_selected = st.session_state.selected_year == y
+    if col.button(
+        y if y == "전체" else f"{y}년",
+        key=f"year_btn_{y}",
+        type="primary" if is_selected else "secondary",
+        use_container_width=True,
+    ):
+        st.session_state.selected_year = y
+        st.rerun()
+
+if st.session_state.selected_year == "전체":
     selected_years = years_available
-    st.sidebar.caption("연도를 선택하지 않아 전체 기간을 표시합니다.")
+else:
+    selected_years = [int(st.session_state.selected_year)]
 
 is_full_range = set(selected_years) == set(years_available)
 years_key = tuple() if is_full_range else tuple(sorted(selected_years))
