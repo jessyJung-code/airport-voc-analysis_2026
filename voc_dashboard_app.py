@@ -23,6 +23,7 @@ analyze_voc.py 의 load_and_prepare() / build_aggregates() 를 그대로 재사�
 집계 로직을 이중으로 관리하지 않는다.
 
 레이아웃 (채팅에서 보여드린 연도별 종합 대시보드와 동일한 구성)
+  - 왼쪽 사이드바 답변부서 다중 선택 (선택 부서만 걸러서 전체 화면 재계산, 연도 필터와 AND 조건)
   - 상단 연도 버튼 (전체 / 2021 / 2022 / ... ) — 버튼을 누르면 해당 연도만 분석
   - 연도별 접수 현황 (선택 연도 강조)
   - KPI 카드 4개
@@ -115,13 +116,15 @@ def get_raw_df():
 
 
 @st.cache_data
-def get_aggregates(years_tuple, _df):
-    """선택된 연도(들)로 필터링한 뒤 12개 축 집계를 다시 계산한다.
-    years_tuple 이 비어있으면(=전체 연도 선택) 필터링하지 않는다.
+def get_aggregates(years_tuple, dept_tuple, _df):
+    """선택된 연도(들)/답변부서(들)로 필터링한 뒤 12개 축 집계를 다시 계산한다.
+    tuple 이 비어있으면(=전체 선택) 해당 조건은 필터링하지 않는다.
     _df 를 인자로 받아 캐시 키에 원본 데이터 변경(파일 재업로드 등)도 반영한다."""
     df = _df
     if years_tuple:
         df = df[df["연도"].isin(years_tuple)]
+    if dept_tuple:
+        df = df[df["답변부서_간략"].isin(dept_tuple)]
     return build_aggregates(df)
 
 
@@ -187,9 +190,28 @@ st.markdown(
 )
 
 raw_df = get_raw_df()
-agg = get_aggregates(tuple(), raw_df)  # 초기 타이틀 표시용 (전체 기간 기준)
+agg = get_aggregates(tuple(), tuple(), raw_df)  # 초기 타이틀 표시용 (전체 기간 기준)
 st.title("보안검색 서비스 VOC 분석 대시보드")
 st.caption(f"분석기간 {agg['meta']['date_min']} ~ {agg['meta']['date_max']}  ·  전체 접수 {agg['meta']['total']:,}건")
+
+# ---------------------------------------------------------------------------
+# 사이드바: 답변부서 선택
+#   선택한 부서(들)가 처리한 VOC만 걸러서 전체 화면을 다시 계산한다.
+#   연도 버튼 필터와 동시에 적용된다 (AND 조건).
+# ---------------------------------------------------------------------------
+dept_counts_all = raw_df["답변부서_간략"].fillna("미기재").value_counts()
+dept_options = list(dept_counts_all.index)
+
+st.sidebar.header("답변부서 선택")
+selected_depts = st.sidebar.multiselect(
+    "분석할 답변부서를 선택하세요 (미선택 시 전체 부서)",
+    options=dept_options,
+    default=[],
+    format_func=lambda d: f"{d} ({dept_counts_all[d]:,}건)",
+)
+if not selected_depts:
+    st.sidebar.caption("부서를 선택하지 않아 전체 부서를 표시합니다.")
+dept_key = tuple(sorted(selected_depts)) if selected_depts else tuple()
 
 # ---------------------------------------------------------------------------
 # 연도 선택: 버튼을 눌러서 연도별로 분석
@@ -222,13 +244,18 @@ else:
 
 is_full_range = set(selected_years) == set(years_available)
 years_key = tuple() if is_full_range else tuple(sorted(selected_years))
-agg = get_aggregates(years_key, raw_df)
+agg = get_aggregates(years_key, dept_key, raw_df)
 
+caption_parts = []
 if is_full_range:
-    st.caption(f"현재 보기: 전체 기간 ({agg['meta']['date_min']} ~ {agg['meta']['date_max']})")
+    caption_parts.append(f"전체 기간 ({agg['meta']['date_min']} ~ {agg['meta']['date_max']})")
 else:
-    label = ", ".join(f"{y}년" for y in sorted(selected_years))
-    st.caption(f"현재 보기: {label}  ·  선택 기간 접수 {agg['meta']['total']:,}건")
+    caption_parts.append(", ".join(f"{y}년" for y in sorted(selected_years)))
+if selected_depts:
+    caption_parts.append(", ".join(selected_depts) + " 부서")
+else:
+    caption_parts.append("전체 부서")
+st.caption(f"현재 보기: {' · '.join(caption_parts)}  ·  선택 조건 접수 {agg['meta']['total']:,}건")
 
 # ---------------------------------------------------------------------------
 # 연도별 접수 현황 (필터와 무관하게 항상 전체 연도를 보여주고, 선택 연도를 강조)
