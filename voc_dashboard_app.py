@@ -32,6 +32,7 @@ analyze_voc.py 의 load_and_prepare() / build_aggregates() 를 그대로 재사�
   - 03 답변부서 & 발생원인
   - 04 추이·교차분석 & 빈도 키워드 : 월별추이 / 요구유형x발생원인 / 제목·내용 키워드(빈도)
   - 05 TF-IDF 키워드 분석 : 제목/내용 TF-IDF TOP15 + 요구유형별 대표 키워드 비교
+  - 06 키워드 정성 분석 : 키워드 선택 시 실제 접수 제목/내용 사례 조회
 """
 
 import streamlit as st
@@ -418,5 +419,30 @@ if by_group:
     st.plotly_chart(fig, use_container_width=True)
 else:
     st.info("선택된 기간에 요구유형별 비교를 위한 표본이 부족합니다.")
+
+# ---------------------------------------------------------------------------
+# 06. 키워드 정성 분석 — 실제 접수 사례 조회
+#   빈도/TF-IDF 수치만으로는 "그래서 실제로 무슨 내용인지" 알 수 없으므로,
+#   키워드를 선택하면 그 단어가 포함된 실제 제목·내용을 최신순으로 보여준다.
+# ---------------------------------------------------------------------------
+st.markdown('<p class="section-label">06 · 키워드 정성 분석 (실제 사례 조회)</p>', unsafe_allow_html=True)
+st.caption("키워드를 선택하면 해당 단어가 포함된 실제 접수 제목·내용을 최신순으로 확인할 수 있습니다.")
+
+kw_examples = agg.get("keyword_examples", {})
+if kw_examples:
+    kw_choice = st.selectbox("키워드 선택", options=sorted(kw_examples.keys()))
+    examples = kw_examples.get(kw_choice, [])
+    if examples:
+        for ex in examples:
+            with st.container(border=True):
+                top_row = st.columns([3, 1, 1])
+                top_row[0].markdown(f"**{ex['제목']}**")
+                top_row[1].caption(ex["요구유형"])
+                top_row[2].caption(ex["등록일시"])
+                st.write(ex["내용"])
+    else:
+        st.info("선택된 기간에는 이 키워드를 포함한 사례가 없습니다.")
+else:
+    st.info("선택된 기간의 표본이 적어 대표 사례를 찾을 수 없습니다.")
 
 st.caption("voc_raw.xlsx 기반 · analyze_voc.py 집계 로직 재사용 · 연도 선택 시 전체 화면 자동 재계산")
