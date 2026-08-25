@@ -193,6 +193,60 @@ def build_keyword_aggregates(df: pd.DataFrame) -> dict:
 
 
 # -------------------------------------------------------------------
+# 정성적 분석: 키워드별 대표 사례(제목/내용) 조회
+#   빈도수·TF-IDF 같은 정량 지표만으로는 "그래서 실제로 어떤 내용이었는지"를
+#   알 수 없다. 각 상위 키워드에 대해 실제 접수 건의 제목/내용을 몇 건씩
+#   붙여줌으로써 정성적 맥락을 함께 확인할 수 있게 한다.
+# -------------------------------------------------------------------
+def _snippet(text, max_len=120):
+    """내용이 너무 길면 잘라서 미리보기 형태로 만든다."""
+    if pd.isna(text):
+        return ""
+    s = str(text).strip().replace("\n", " ").replace("\r", " ")
+    s = re.sub(r"\s+", " ", s)
+    return s if len(s) <= max_len else s[:max_len].rstrip() + "…"
+
+
+def keyword_examples(df: pd.DataFrame, keyword: str, n=3, prefer_col='내용') -> list:
+    """제목 또는 내용에 해당 키워드(원형)를 포함하는 접수 건을 최대 n개 찾아
+    제목/내용 미리보기/요구유형/등록일시를 함께 반환한다.
+    최신순으로 정렬해 최근 사례를 우선 보여준다."""
+    mask = df['제목'].fillna('').str.contains(keyword, regex=False) | \
+           df[prefer_col].fillna('').str.contains(keyword, regex=False)
+    sub = df[mask].sort_values('등록일시_dt', ascending=False).head(n)
+    examples = []
+    for _, row in sub.iterrows():
+        examples.append({
+            "제목": _snippet(row.get('제목'), 60),
+            "내용": _snippet(row.get(prefer_col), 140),
+            "요구유형": row.get('요구유형', ''),
+            "등록일시": str(row.get('등록일시_dt'))[:10] if pd.notna(row.get('등록일시_dt')) else "",
+        })
+    return examples
+
+
+def build_keyword_examples(df: pd.DataFrame, keywords: list, n=3) -> dict:
+    """키워드 리스트(문자열)를 받아 각 키워드별 대표 사례를 딕셔너리로 반환한다."""
+    return {kw: keyword_examples(df, kw, n=n) for kw in keywords}
+
+
+def build_keyword_examples_aggregates(df: pd.DataFrame, agg: dict, n=3) -> dict:
+    """상위 키워드(내용 TOP15, 제목 TOP10) 및 불편불만/칭찬격려 대표 키워드에 대해
+    대표 사례를 미리 계산해 둔다. 화면(엑셀/대시보드)에서 바로 조회할 수 있도록
+    'keyword_examples' 딕셔너리로 통합 제공한다."""
+    target_keywords = set()
+    for item in agg.get('content_keywords', [])[:15]:
+        target_keywords.add(item['name'])
+    for item in agg.get('title_keywords', [])[:10]:
+        target_keywords.add(item['name'])
+    for item in agg.get('keywords_complaint', [])[:8]:
+        target_keywords.add(item['name'])
+    for item in agg.get('keywords_praise', [])[:8]:
+        target_keywords.add(item['name'])
+    return {"keyword_examples": build_keyword_examples(df, sorted(target_keywords), n=n)}
+
+
+# -------------------------------------------------------------------
 # TF-IDF 키워드 분석
 #   단순 빈도(Counter) 분석은 "직원", "보안"처럼 어디서나 자주 등장하는
 #   단어가 항상 상위를 차지한다. TF-IDF는 각 문서(접수 건)별 등장 비중과
@@ -309,6 +363,7 @@ def build_aggregates(df: pd.DataFrame) -> dict:
 
     out.update(build_keyword_aggregates(df))
     out.update(build_tfidf_aggregates(df))
+    out.update(build_keyword_examples_aggregates(df, out, n=3))
 
     return out
 
@@ -380,7 +435,7 @@ def build_excel_report(agg: dict, out_path: str):
     ws.cell(row=row + 1, column=2, value="시트 구성 안내").font = Font(name="Arial", bold=True, size=11, color=NAVY)
     sheet_names = ["등록채널", "요구유형", "고객유형", "서비스유형", "터미널_항공사",
                    "시간대", "답변부서", "발생원인", "월별추이", "교차분석(요구유형x발생원인)",
-                   "키워드분석(제목/내용)", "TFIDF키워드분석"]
+                   "키워드분석(제목/내용)", "TFIDF키워드분석", "키워드_대표사례"]
     for i, s in enumerate(sheet_names, start=1):
         ws.cell(row=row + 1 + i, column=2, value=f"· {s}").font = BODY_FONT
     _autofit(ws, [3, 30, 20, 14])
@@ -584,6 +639,26 @@ def build_excel_report(agg: dict, out_path: str):
         rows_g.append(row)
     _write_table(sh, headers, rows_g, start_row=start3t + 1, start_col=1)
     _autofit(sh, [14, 8, 14, 8, 14, 8, 14, 8])
+
+    # ---------------- 키워드별 대표 사례(정성 분석) 시트 ----------------
+    sh = wb.create_sheet("키워드_대표사례")
+    sh["A1"] = "주요 키워드별 대표 접수 사례 (정성적 분석)"
+    sh["A1"].font = TITLE_FONT
+    sh["A2"] = "※ 내용/제목 상위 키워드와 요구유형별 대표 키워드에 대해, 해당 단어를 포함한 실제 접수 건을 최신순 최대 3건씩 표시합니다."
+    sh["A2"].font = Font(name="Arial", italic=True, size=9, color="7A7A7A")
+
+    kw_examples = agg.get("keyword_examples", {})
+    headers = ["키워드", "등록일시", "요구유형", "제목", "내용(미리보기)"]
+    rows_ex = []
+    for kw in sorted(kw_examples.keys()):
+        examples = kw_examples[kw]
+        for i, ex in enumerate(examples):
+            rows_ex.append([
+                kw if i == 0 else "",  # 같은 키워드는 첫 행에만 표기(가독성)
+                ex["등록일시"], ex["요구유형"], ex["제목"], ex["내용"],
+            ])
+    _write_table(sh, headers, rows_ex, start_row=4, start_col=1)
+    _autofit(sh, [12, 12, 10, 28, 55])
 
     wb.save(out_path)
 
