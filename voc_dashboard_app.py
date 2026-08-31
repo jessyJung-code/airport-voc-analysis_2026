@@ -569,11 +569,14 @@ def render_passenger_flow_dashboard():
     label = "전체 터미널" if st.session_state.selected_terminal == "전체" else st.session_state.selected_terminal
     st.caption(f"현재 보기: {label}  ·  분석기간 {data['meta']['date_min']} ~ {data['meta']['date_max']}")
 
+    has_processed = data["meta"]["total_processed"] > 0
     k1, k2, k3, k4 = st.columns(4)
-    k1.metric("총 처리 여객", f"{data['meta']['total_processed']:,}명")
+    k1.metric("총 처리 여객", f"{data['meta']['total_processed']:,}명" if has_processed else "집계 불가")
     k2.metric("평균 대기시간", f"{data['meta']['avg_wait_sec']}초")
-    k3.metric("피크 시간대", f"{data['meta']['peak_hour']}시")
-    k4.metric("최다혼잡 출국장", data["meta"]["busiest_zone"])
+    k3.metric("피크 시간대", f"{data['meta']['peak_hour']}시" if has_processed else "-")
+    k4.metric("최다혼잡 출국장", data["meta"]["busiest_zone"] if has_processed else "-")
+    if not has_processed:
+        st.caption("⚠ 이 데이터에는 처리여객수 집계에 필요한 값이 없어 대기시간·대기열 지표만 제공됩니다. 위 'ℹ️ 데이터 산출 방식' 참고.")
 
     st.divider()
 
@@ -585,11 +588,14 @@ def render_passenger_flow_dashboard():
     with c1:
         st.subheader("시간대별 처리 여객수")
         bh = data["by_hour"]
-        fig = go.Figure(go.Bar(
-            x=bh["hours"], y=bh["processed"], marker_color=BLUE, marker=dict(cornerradius=4),
-        ))
-        fig.update_layout(**base_layout(280))
-        st.plotly_chart(fig, use_container_width=True)
+        if has_processed:
+            fig = go.Figure(go.Bar(
+                x=bh["hours"], y=bh["processed"], marker_color=BLUE, marker=dict(cornerradius=4),
+            ))
+            fig.update_layout(**base_layout(280))
+            st.plotly_chart(fig, use_container_width=True)
+        else:
+            st.info("이 데이터에는 처리여객수 집계에 필요한 값이 없습니다.")
     with c2:
         st.subheader("시간대별 평균 대기시간")
         fig = go.Figure(go.Scatter(
@@ -610,7 +616,10 @@ def render_passenger_flow_dashboard():
     c3, c4, c5 = st.columns(3)
     with c3:
         st.subheader("출국장별 처리 여객수")
-        st.plotly_chart(vbar(zone_items(bz["processed"]), AQUA, 260), use_container_width=True)
+        if has_processed:
+            st.plotly_chart(vbar(zone_items(bz["processed"]), AQUA, 260), use_container_width=True)
+        else:
+            st.info("집계 불가")
     with c4:
         st.subheader("출국장별 평균 대기시간")
         st.plotly_chart(vbar(zone_items(bz["avg_wait_sec"]), RED, 260), use_container_width=True)
@@ -628,7 +637,10 @@ def render_passenger_flow_dashboard():
         ct1, ct2, ct3 = st.columns(3)
         with ct1:
             st.subheader("터미널별 처리 여객수")
-            st.plotly_chart(vbar(bt_items("processed"), BLUE, 240), use_container_width=True)
+            if has_processed:
+                st.plotly_chart(vbar(bt_items("processed"), BLUE, 240), use_container_width=True)
+            else:
+                st.info("집계 불가")
         with ct2:
             st.subheader("터미널별 평균 대기시간")
             st.plotly_chart(vbar(bt_items("avg_wait_sec"), RED, 240), use_container_width=True)
@@ -650,17 +662,20 @@ def render_passenger_flow_dashboard():
     # -------------------------------------------------------------------
     st.markdown('<p class="section-label">04 · 출국장 × 시간대 히트맵</p>', unsafe_allow_html=True)
     st.subheader("출국장별 시간대별 처리 여객수")
-    hm = data["heatmap_processed"]
-    fig = go.Figure(go.Heatmap(
-        z=hm["matrix"], x=hm["hours"], y=hm["zones"],
-        colorscale=[[0, "#f4f6fc"], [1, BLUE]],
-        showscale=True, hovertemplate="%{y} · %{x}<br>처리여객 %{z:,}명<extra></extra>",
-    ))
-    fig.update_layout(
-        height=360, margin=dict(l=8, r=8, t=8, b=8), font=CHART_FONT,
-        plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
-    )
-    st.plotly_chart(fig, use_container_width=True)
+    if has_processed:
+        hm = data["heatmap_processed"]
+        fig = go.Figure(go.Heatmap(
+            z=hm["matrix"], x=hm["hours"], y=hm["zones"],
+            colorscale=[[0, "#f4f6fc"], [1, BLUE]],
+            showscale=True, hovertemplate="%{y} · %{x}<br>처리여객 %{z:,}명<extra></extra>",
+        ))
+        fig.update_layout(
+            height=360, margin=dict(l=8, r=8, t=8, b=8), font=CHART_FONT,
+            plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
+        )
+        st.plotly_chart(fig, use_container_width=True)
+    else:
+        st.info("이 데이터에는 처리여객수 집계에 필요한 값이 없어 히트맵을 표시할 수 없습니다.")
 
     # -------------------------------------------------------------------
     # 05. 측정지점별 비교 (입구 동/서 vs 보안검색대)
