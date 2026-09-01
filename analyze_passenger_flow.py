@@ -269,9 +269,9 @@ if __name__ == "__main__":
     print(f"분석기간: {data['meta']['date_min']} ~ {data['meta']['date_max']}")
     print(f"터미널: {', '.join(data['meta']['terminals'])}")
     print(f"총 처리 여객: {data['meta']['total_processed']:,}명")
-    print(f"평균 대기시간(중앙값): {data['meta']['avg_wait_sec']}초")
+    print(f"평균 소요시간(중앙값): {data['meta']['avg_wait_sec']/60:.1f}분")
     print(f"피크 시간대: {data['meta']['peak_hour']}시")
     print(f"최다혼잡 출국장: {data['meta']['busiest_zone']}")
     print("\n=== 터미널별 ===")
     for t in data["by_terminal"]:
-        print(f"  {t['terminal']}: 처리 {t['processed']:,}명, 대기 {t['avg_wait_sec']}초, 대기열 {t['queue_avg']}명")
+        print(f"  {t['terminal']}: 처리 {t['processed']:,}명, 소요 {t['avg_wait_sec']/60:.1f}분, 대기열 {t['queue_avg']}명")
