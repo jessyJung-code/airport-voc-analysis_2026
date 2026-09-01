@@ -560,17 +560,6 @@ def render_passenger_flow_dashboard():
 
     data = get_flow_aggregates(flow_df, terminal_key)
 
-    with st.expander("ℹ️ 데이터 산출 방식 및 품질 참고사항", expanded=False):
-        st.markdown(
-            "- **처리 여객수** = 출국장별 당일 누적 처리인원 카운터(자정 리셋)의 분당 증분 합계\n"
-            "- **소요시간** = 대기열을 빠져나간(처리완료) 여객의 실측 소요시간, 활동이 없는(0) "
-            "구간을 제외한 중앙값 → 처리여객수로 가중평균 (화면에는 분 단위로 환산해 표시)\n"
-            "- **대기열** = 현재 대기열 길이(명), 동일한 방식으로 집계\n\n"
-            "**알려진 데이터 품질 이슈**"
-        )
-        for note in data["meta"].get("data_quality_notes", []):
-            st.markdown(f"- {note}")
-
     label = "전체 터미널" if st.session_state.selected_terminal == "전체" else st.session_state.selected_terminal
     st.caption(f"현재 보기: {label}  ·  분석기간 {data['meta']['date_min']} ~ {data['meta']['date_max']}")
 
@@ -581,7 +570,7 @@ def render_passenger_flow_dashboard():
     k3.metric("피크 시간대", f"{data['meta']['peak_hour']}시" if has_processed else "-")
     k4.metric("최다혼잡 출국장", data["meta"]["busiest_zone"] if has_processed else "-")
     if not has_processed:
-        st.caption("⚠ 이 데이터에는 처리여객수 집계에 필요한 값이 없어 소요시간·대기열 지표만 제공됩니다. 위 'ℹ️ 데이터 산출 방식' 참고.")
+        st.caption("⚠ 이 데이터에는 처리여객수 집계에 필요한 값이 없어 소요시간·대기열 지표만 제공됩니다.")
 
     st.divider()
 
