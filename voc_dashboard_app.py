@@ -752,30 +752,124 @@ def render_immigration_dashboard():
     data = get_imm_aggregates(imm_df)
 
     # ---------------------------------------------------------------
-    # 보고서 선택 (사이드바) — 1차(`26.2.12~2.15) / 2차(`26.6.20~6.23)
+    # 필터별 "전체" 선택을 처리하는 공용 헬퍼
+    #   - 절차구분 "전체" → 신분확인+보안검색을 게이트별로 합산 (요청하신
+    #     "합쳐놓은 시간 계산 결과")
+    #   - 보고서 "전체" → 1차·2차를 게이트별로 평균
+    #   - 터미널 "전체" → T1·T2 게이트를 한 차트에 "터미널 게이트명"으로 합쳐서 표시
+    #   - 지표 "전체" → P95·평균 두 계열을 함께 표시
+    # ---------------------------------------------------------------
+    def resolve_list(sel, all_values):
+        return list(all_values) if sel == "전체" else [sel]
+
+    def combined_overall(report_sel, category_sel, terminal_sel, metric_sel):
+        """게이트별 '전체' 소요시간을 선택 조건에 맞춰 결합해 반환한다.
+        반환값: [{"metric":..,"gate":.., "seconds":..}, ...]"""
+        reports = resolve_list(report_sel, data["meta"]["reports"])
+        categories = resolve_list(category_sel, data["meta"]["categories"])
+        terminals = resolve_list(terminal_sel, data["meta"]["terminals"])
+        metrics = resolve_list(metric_sel, ["P95", "평균"])
+
+        out_rows = []
+        for m in metrics:
+            for t in terminals:
+                gate_list = None
+                for r in reports:
+                    for c in categories:
+                        gl = data["gates_by_terminal"].get(r, {}).get(c, {}).get(t)
+                        if gl:
+                            gate_list = gl
+                            break
+                    if gate_list:
+                        break
+                if not gate_list:
+                    continue
+                for g in gate_list:
+                    report_vals = []
+                    for r in reports:
+                        cat_sum, found = 0.0, False
+                        for c in categories:
+                            match = next((x for x in data["overall"]
+                                          if x["report"] == r and x["category"] == c
+                                          and x["terminal"] == t and x["gate"] == g and x["metric"] == m), None)
+                            if match:
+                                cat_sum += match["seconds"]
+                                found = True
+                        if found:
+                            report_vals.append(cat_sum)
+                    if report_vals:
+                        label = g if len(terminals) == 1 else f"{t} {g}"
+                        out_rows.append({"metric": m, "gate": label, "seconds": sum(report_vals) / len(report_vals)})
+        return out_rows
+
+    def combined_hourly(report_sel, category_sel, terminal_sel, metric_sel):
+        """게이트별 시간대별 소요시간(분)을 같은 규칙으로 결합해 반환한다.
+        반환값: {gate_label: [시간대별 초(seconds) 리스트]}"""
+        reports = resolve_list(report_sel, data["meta"]["reports"])
+        categories = resolve_list(category_sel, data["meta"]["categories"])
+        terminals = resolve_list(terminal_sel, data["meta"]["terminals"])
+        metric = metric_sel if metric_sel != "전체" else "P95"
+        n_slots = len(data["meta"]["time_slots"])
+
+        result = {}
+        for t in terminals:
+            gate_list = None
+            for r in reports:
+                for c in categories:
+                    gl = data["gates_by_terminal"].get(r, {}).get(c, {}).get(t)
+                    if gl:
+                        gate_list = gl
+                        break
+                if gate_list:
+                    break
+            if not gate_list:
+                continue
+            for g in gate_list:
+                report_series = []
+                for r in reports:
+                    cat_sum = [0.0] * n_slots
+                    found = False
+                    for c in categories:
+                        s = data["series"].get(r, {}).get(c, {}).get(t, {}).get(metric, {}).get(g)
+                        if s and len(s) == n_slots:
+                            cat_sum = [a + b for a, b in zip(cat_sum, s)]
+                            found = True
+                    if found:
+                        report_series.append(cat_sum)
+                if report_series:
+                    avg_series = [sum(vals) / len(vals) for vals in zip(*report_series)]
+                    label = g if len(terminals) == 1 else f"{t} {g}"
+                    result[label] = avg_series
+        return result
+
+    # ---------------------------------------------------------------
+    # 보고서 선택 (사이드바) — 1차(`26.2.12~2.15) / 2차(`26.6.20~6.23) / 전체
     # ---------------------------------------------------------------
     all_reports = data["meta"]["reports"]
+    report_options = all_reports + ["전체"]
     if "selected_imm_report" not in st.session_state:
         st.session_state.selected_imm_report = all_reports[-1]
 
     st.sidebar.header("보고서 선택")
-    report_cols = st.sidebar.columns(len(all_reports))
-    for col, r in zip(report_cols, all_reports):
+    report_cols = st.sidebar.columns(len(report_options))
+    for col, r in zip(report_cols, report_options):
         is_sel = st.session_state.selected_imm_report == r
         if col.button(r, key=f"imm_report_btn_{r}", type="primary" if is_sel else "secondary", use_container_width=True):
             st.session_state.selected_imm_report = r
             st.rerun()
 
     # ---------------------------------------------------------------
-    # 절차구분 선택 (사이드바) — 신분확인 / 보안검색
+    # 절차구분 선택 (사이드바) — 신분확인 / 보안검색 / 전체(합산)
     # ---------------------------------------------------------------
     all_categories = data["meta"]["categories"]
+    category_options = all_categories + ["전체"]
     if "selected_imm_category" not in st.session_state:
         st.session_state.selected_imm_category = all_categories[0]
 
     st.sidebar.header("절차구분 선택")
-    cat_cols = st.sidebar.columns(len(all_categories))
-    for col, c in zip(cat_cols, all_categories):
+    st.sidebar.caption("'전체' 선택 시 신분확인+보안검색을 게이트별로 합산합니다")
+    cat_cols = st.sidebar.columns(len(category_options))
+    for col, c in zip(cat_cols, category_options):
         is_sel = st.session_state.selected_imm_category == c
         if col.button(c, key=f"imm_cat_btn_{c}", type="primary" if is_sel else "secondary", use_container_width=True):
             st.session_state.selected_imm_category = c
@@ -785,25 +879,27 @@ def render_immigration_dashboard():
     # 터미널 선택 (사이드바)
     # ---------------------------------------------------------------
     all_terminals = data["meta"]["terminals"]
+    terminal_options = all_terminals + ["전체"]
     if "selected_imm_terminal" not in st.session_state:
         st.session_state.selected_imm_terminal = all_terminals[0]
 
     st.sidebar.header("터미널 선택")
-    term_cols = st.sidebar.columns(len(all_terminals))
-    for col, t in zip(term_cols, all_terminals):
+    term_cols = st.sidebar.columns(len(terminal_options))
+    for col, t in zip(term_cols, terminal_options):
         is_sel = st.session_state.selected_imm_terminal == t
         if col.button(t, key=f"imm_term_btn_{t}", type="primary" if is_sel else "secondary", use_container_width=True):
             st.session_state.selected_imm_terminal = t
             st.rerun()
 
-    # 지표 선택 (P95 / 평균)
+    # 지표 선택 (P95 / 평균 / 전체)
     if "selected_imm_metric" not in st.session_state:
         st.session_state.selected_imm_metric = "P95"
     st.sidebar.header("지표 선택")
-    metric_cols = st.sidebar.columns(2)
-    for col, m in zip(metric_cols, ["P95", "평균"]):
+    metric_options = ["P95", "평균", "전체"]
+    metric_cols = st.sidebar.columns(3)
+    for col, m in zip(metric_cols, metric_options):
         is_sel = st.session_state.selected_imm_metric == m
-        label = "95% 소요시간" if m == "P95" else "평균 소요시간"
+        label = "95%" if m == "P95" else m
         if col.button(label, key=f"imm_metric_btn_{m}", type="primary" if is_sel else "secondary", use_container_width=True):
             st.session_state.selected_imm_metric = m
             st.rerun()
@@ -812,22 +908,39 @@ def render_immigration_dashboard():
     category = st.session_state.selected_imm_category
     term = st.session_state.selected_imm_terminal
     metric = st.session_state.selected_imm_metric
-    metric_label = "95% 소요시간" if metric == "P95" else "평균 소요시간"
+    metric_label = {"P95": "95% 소요시간", "평균": "평균 소요시간", "전체": "95%+평균 소요시간"}[metric]
+
+    # 단일 값이 필요한 하위 섹션(04/05)을 위한 대표값 (전체 선택 시 첫 값으로 대체)
+    single_metric = metric if metric != "전체" else "P95"
 
     st.caption(f"현재 보기: {report} 보고서 · {category} · {term}  ·  {metric_label}")
 
     # ---------------------------------------------------------------
-    # KPI 카드
+    # KPI 카드 — combined_overall() 하나로 모든 "전체" 조합을 일관되게 반영
     # ---------------------------------------------------------------
-    summary = next((s for s in data["terminal_summary"]
-                     if s["report"] == report and s["category"] == category and s["terminal"] == term), None)
-    total_processed = data["processed"][report][category][0]  # '전체' 슬롯
-    if summary:
-        k1, k2, k3, k4 = st.columns(4)
-        k1.metric(f"{category} 전체 처리인원", f"{total_processed:,}건")
-        k2.metric("평균 P95 소요시간", f"{summary['avg_p95_sec']//60:.0f}분 {summary['avg_p95_sec']%60:.0f}초")
-        k3.metric("최장 게이트(P95)", summary["worst_gate"], f"{summary['worst_sec']//60}분 {summary['worst_sec']%60}초")
-        k4.metric("최단 게이트(P95)", summary["best_gate"], f"{summary['best_sec']//60}분 {summary['best_sec']%60}초")
+    combo_rows = combined_overall(report, category, term, "P95")  # KPI는 P95 기준 대표
+    if combo_rows:
+        best = min(combo_rows, key=lambda r: r["seconds"])
+        worst = max(combo_rows, key=lambda r: r["seconds"])
+        avg_p95 = sum(r["seconds"] for r in combo_rows) / len(combo_rows)
+    else:
+        best = worst = None
+        avg_p95 = 0
+
+    reports_for_proc = resolve_list(report, all_reports)
+    categories_for_proc = resolve_list(category, all_categories)
+    total_processed = sum(
+        data["processed"][r][c][0] for r in reports_for_proc for c in categories_for_proc
+    )
+    proc_label = category if category != "전체" else "신분확인+보안검색"
+
+    k1, k2, k3, k4 = st.columns(4)
+    k1.metric(f"{proc_label} 전체 처리인원", f"{total_processed:,}건")
+    k2.metric("평균 P95 소요시간", f"{avg_p95//60:.0f}분 {avg_p95%60:.0f}초")
+    if worst:
+        k3.metric("최장 게이트(P95)", worst["gate"], f"{worst['seconds']//60:.0f}분 {worst['seconds']%60:.0f}초")
+    if best:
+        k4.metric("최단 게이트(P95)", best["gate"], f"{best['seconds']//60:.0f}분 {best['seconds']%60:.0f}초")
 
     st.divider()
 
@@ -835,37 +948,37 @@ def render_immigration_dashboard():
     # 01. 시간대별 처리인원 (보고서·절차구분 전체 집계 — 게이트별 세부값은 원본에 없음)
     # ---------------------------------------------------------------
     st.markdown('<p class="section-label">01 · 시간대별 처리인원</p>', unsafe_allow_html=True)
-    st.caption(f"⚠ 원본 표에 게이트별 처리인원이 없어, {category} 전체(모든 터미널·게이트 합산) 기준으로만 제공합니다.")
+    st.caption(f"⚠ 원본 표에 게이트별 처리인원이 없어, {proc_label} 전체(모든 터미널·게이트 합산) 기준으로만 제공합니다.")
     hours = [s for s in data["meta"]["time_slots"] if s != "전체"]
-    proc_full = data["processed"][report][category]
-    proc_hours = proc_full[1:]  # '전체' 제외, 시간대만
 
-    fig0 = go.Figure(go.Bar(
-        x=hours, y=proc_hours, marker_color=BLUE, marker=dict(cornerradius=4),
-        hovertemplate="%{x}<br>%{y:,}건<extra></extra>",
-    ))
-    fig0.update_layout(**base_layout(260))
+    proc_series_by_cat = {}
+    for c in categories_for_proc:
+        summed = [0] * (len(data["meta"]["time_slots"]))
+        for r in reports_for_proc:
+            vals = data["processed"][r][c]
+            summed = [a + b for a, b in zip(summed, vals)]
+        proc_series_by_cat[c] = summed[1:]  # '전체' 제외
+
+    fig0 = go.Figure()
+    proc_colors = {"신분확인": AQUA, "보안검색": VIOLET}
+    for c, vals in proc_series_by_cat.items():
+        fig0.add_bar(name=c, x=hours, y=vals, marker_color=proc_colors.get(c, BLUE))
+    fig0.update_layout(**base_layout(260, showlegend=len(proc_series_by_cat) > 1, barmode="group"))
     fig0.update_layout(yaxis=dict(title="처리인원(건)"))
-    st.subheader(f"{report} · {category} 시간대별 처리인원 (전체 {total_processed:,}건)")
+    st.subheader(f"{report} · {proc_label} 시간대별 처리인원 (전체 {total_processed:,}건)")
     st.plotly_chart(fig0, use_container_width=True)
 
     # ---------------------------------------------------------------
     # 02. 시간대별 게이트별 소요시간 추이 (막대 — 게이트별 그룹 막대)
     # ---------------------------------------------------------------
     st.markdown('<p class="section-label">02 · 시간대별 게이트별 소요시간 추이</p>', unsafe_allow_html=True)
-    gates = data["gates_by_terminal"][report][category][term]
-    series = data["series"].get(report, {}).get(category, {}).get(term, {}).get(metric, {})
+    hourly = combined_hourly(report, category, term, metric)
 
-    bar_colors = [BLUE, AQUA, RED, VIOLET, YELLOW, "#8b6fd6", "#4ecbb0"]
+    bar_colors = [BLUE, AQUA, RED, VIOLET, YELLOW, "#8b6fd6", "#4ecbb0", "#f2a6c1", "#6fb1e0"]
     fig = go.Figure()
-    for i, g in enumerate(gates):
-        full = series.get(g, [])
-        # series는 '전체' 포함 순서이므로 인덱스 1부터(시간대만) 슬라이스
+    for i, (g, full) in enumerate(hourly.items()):
         y = full[1:] if len(full) == len(data["meta"]["time_slots"]) else full
-        fig.add_bar(
-            name=g, x=hours, y=[v / 60 for v in y],
-            marker_color=bar_colors[i % len(bar_colors)],
-        )
+        fig.add_bar(name=g, x=hours, y=[v / 60 for v in y], marker_color=bar_colors[i % len(bar_colors)])
     fig.update_layout(**base_layout(380, showlegend=True, barmode="group"))
     fig.update_layout(
         legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0),
@@ -875,19 +988,31 @@ def render_immigration_dashboard():
     st.plotly_chart(fig, use_container_width=True)
 
     # ---------------------------------------------------------------
-    # 03. 게이트별 "전체" 소요시간 비교 (막대)
+    # 03. 게이트별 "전체" 소요시간 비교 (막대) — 요청하신 절차구분 합산 결과가
+    #     여기 그대로 반영된다 (절차구분="전체" 선택 시 신분확인+보안검색 합산)
     # ---------------------------------------------------------------
     st.markdown('<p class="section-label">03 · 게이트별 전체 소요시간 비교</p>', unsafe_allow_html=True)
-    overall_rows = [r for r in data["overall"]
-                     if r["report"] == report and r["category"] == category
-                     and r["terminal"] == term and r["metric"] == metric]
-    overall_rows.sort(key=lambda r: r["seconds"], reverse=True)
-    fig2 = go.Figure(go.Bar(
-        x=[r["gate"] for r in overall_rows], y=[r["seconds"] / 60 for r in overall_rows],
-        marker_color=AQUA, marker=dict(cornerradius=4),
-        hovertemplate="%{x}<br>%{y:.1f}분<extra></extra>",
-    ))
-    fig2.update_layout(**base_layout(280))
+    if category == "전체":
+        st.caption("📐 신분확인 + 보안검색 소요시간을 게이트별로 합산한 값입니다 (총 체류시간 개념).")
+    combo_all = combined_overall(report, category, term, metric)
+    if metric == "전체":
+        fig2 = go.Figure()
+        metric_colors = {"P95": AQUA, "평균": YELLOW}
+        gate_order = [r["gate"] for r in combo_all if r["metric"] == combo_all[0]["metric"]]
+        for m in ["P95", "평균"]:
+            rows_m = [r for r in combo_all if r["metric"] == m]
+            rows_m.sort(key=lambda r: gate_order.index(r["gate"]) if r["gate"] in gate_order else 0)
+            fig2.add_bar(name=m, x=[r["gate"] for r in rows_m], y=[r["seconds"] / 60 for r in rows_m],
+                         marker_color=metric_colors[m])
+        fig2.update_layout(**base_layout(300, showlegend=True, barmode="group"))
+    else:
+        combo_all.sort(key=lambda r: r["seconds"], reverse=True)
+        fig2 = go.Figure(go.Bar(
+            x=[r["gate"] for r in combo_all], y=[r["seconds"] / 60 for r in combo_all],
+            marker_color=AQUA, marker=dict(cornerradius=4),
+            hovertemplate="%{x}<br>%{y:.1f}분<extra></extra>",
+        ))
+        fig2.update_layout(**base_layout(280))
     fig2.update_layout(yaxis=dict(title="소요시간(분)"))
     st.subheader(f"{term} 게이트별 전체 {metric_label}")
     st.plotly_chart(fig2, use_container_width=True)
@@ -901,11 +1026,10 @@ def render_immigration_dashboard():
         fig3 = go.Figure()
         cmp_colors = {all_reports[0]: BLUE, all_reports[-1]: RED}
         for r in all_reports:
-            rows_r = [x for x in data["overall"]
-                      if x["report"] == r and x["category"] == category
-                      and x["terminal"] == term and x["metric"] == metric]
-            gate_order = data["gates_by_terminal"][r][category][term]
-            rows_r.sort(key=lambda x: gate_order.index(x["gate"]) if x["gate"] in gate_order else 0)
+            rows_r = combined_overall(r, category, term, single_metric)
+            gate_order = combined_overall("전체", category, term, single_metric)
+            gate_order_list = [x["gate"] for x in gate_order]
+            rows_r.sort(key=lambda x: gate_order_list.index(x["gate"]) if x["gate"] in gate_order_list else 0)
             fig3.add_bar(name=r, x=[x["gate"] for x in rows_r], y=[x["seconds"] / 60 for x in rows_r],
                          marker_color=cmp_colors.get(r, VIOLET))
         fig3.update_layout(**base_layout(300, showlegend=True, barmode="group"))
@@ -921,11 +1045,10 @@ def render_immigration_dashboard():
         fig4 = go.Figure()
         cat_colors = {"신분확인": AQUA, "보안검색": VIOLET}
         for c in all_categories:
-            rows_c = [x for x in data["overall"]
-                      if x["report"] == report and x["category"] == c
-                      and x["terminal"] == term and x["metric"] == metric]
-            gate_order = data["gates_by_terminal"][report][c][term]
-            rows_c.sort(key=lambda x: gate_order.index(x["gate"]) if x["gate"] in gate_order else 0)
+            rows_c = combined_overall(report, c, term, single_metric)
+            gate_order = combined_overall(report, c, term, single_metric)
+            gate_order_list = [x["gate"] for x in gate_order]
+            rows_c.sort(key=lambda x: gate_order_list.index(x["gate"]) if x["gate"] in gate_order_list else 0)
             fig4.add_bar(name=c, x=[x["gate"] for x in rows_c], y=[x["seconds"] / 60 for x in rows_c],
                          marker_color=cat_colors.get(c, GRAY))
         fig4.update_layout(**base_layout(300, showlegend=True, barmode="group"))
