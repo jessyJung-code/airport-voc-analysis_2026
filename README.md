@@ -2,7 +2,8 @@
 
 Streamlit 기반 3페이지 대시보드
 - **VOC 분석**: 보안검색 VOC 접수 데이터 분석 (연도·답변부서 필터)
-- **출국장 여객흐름 분석**: Xovis 센서 원본 기반 처리여객/대기시간/대기열 분석 (터미널 필터)
+- **출국장 여객흐름 분석**: Xovis 센서 원본 기반 처리여객/소요시간/대기열 분석 (터미널 필터)
+- **출국장 여객 흐름 분석_2**: 기본 여객흐름 분석과 동일한 로직 · 2월/6월 데이터 전환 (월 + 터미널 필터)
 - **출입국 심사 소요시간 모니터링**: 신분확인·보안검색 소요시간 리포트 분석 (보고서 회차·절차구분·터미널·지표 필터)
 
 ## 1. 저장소(레포지토리) 구성
@@ -19,13 +20,16 @@ repo/
 ├── runtime.txt                     # (선택) 파이썬 버전 고정
 ├── voc_raw.xlsx                    # VOC 원본 데이터 ← 직접 추가 필요
 ├── xovis_flow.csv                  # 여객흐름 원본 데이터 ← 직접 추가 필요
+├── xovis_flow_02m.csv               # 여객흐름_2 원본 데이터(2월) ← 직접 추가 필요
+├── xovis_flow_06m.csv               # 여객흐름_2 원본 데이터(6월) ← 직접 추가 필요
 └── immigration_processing_time.csv # 출입국 심사 소요시간 원본 데이터 ← 직접 추가 필요
 ```
 
 `voc_dashboard_app.py`, `analyze_voc.py`, `analyze_passenger_flow.py`,
 `analyze_immigration.py`, `requirements.txt`, `runtime.txt`는 이 대화에서 만든
 파일을 그대로 커밋하면 됩니다.
-**`voc_raw.xlsx`, `xovis_flow.csv`, `immigration_processing_time.csv`는 원본
+**`voc_raw.xlsx`, `xovis_flow.csv`, `xovis_flow_02m.csv`, `xovis_flow_06m.csv`,
+`immigration_processing_time.csv`는 원본
 데이터라 별도로 저장소에 추가**해야 합니다.
 
 `immigration_processing_time.csv`는 인천공항 "출입국 소요시간 모니터링 결과
