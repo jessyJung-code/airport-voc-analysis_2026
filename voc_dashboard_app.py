@@ -474,250 +474,33 @@ def render_voc_dashboard():
     st.caption("voc_raw.xlsx 기반 · analyze_voc.py 집계 로직 재사용 · 연도 선택 시 전체 화면 자동 재계산")
 
 # =============================================================================
-# 출국장 여객흐름 분석 (xovis_flow.csv 기반)
+# 출국장 여객흐름 분석 (월별 통합, Xovis 센서 원본 기반)
+#   기존 "출국장 여객흐름 분석"과 "_2(월별 비교)" 두 페이지를 하나로 합쳤다.
 #   analyze_passenger_flow.py 의 load_and_prepare() / build_dashboard_data() 를
-#   그대로 재사용한다. 컬럼 의미 추정 방식은 analyze_passenger_flow.py 상단
-#   주석을 참고 — 실제 정의서와 교차검증을 권장한다는 점을 화면에도 안내한다.
-# =============================================================================
-FLOW_APP_DIR = Path(__file__).resolve().parent
-FLOW_CANDIDATE_PATHS = [
-    FLOW_APP_DIR / FLOW_INPUT_PATH,
-    FLOW_APP_DIR / "data" / FLOW_INPUT_PATH,
-    Path(FLOW_INPUT_PATH),
-]
-
-
-def _find_flow_data_file():
-    for p in FLOW_CANDIDATE_PATHS:
-        if p.exists():
-            return p
-    return None
-
-
-@st.cache_data
-def _flow_load(source):
-    return flow_load_and_prepare(source)
-
-
-def get_flow_raw_df():
-    """출국장 센서 원본 데이터를 로드한다. 저장소에 파일이 없으면 업로드 위젯으로 대체한다."""
-    found = _find_flow_data_file()
-    if found is not None:
-        return _flow_load(str(found))
-
-    st.warning(
-        "출국장 센서 원본 CSV를 찾지 못했습니다. 다음 경로들을 확인했습니다:\n\n"
-        + "\n".join(f"- `{p}`" for p in FLOW_CANDIDATE_PATHS)
-        + "\n\n저장소에 데이터 파일을 커밋했다면 경로/파일명을 확인해 주세요. "
-        "지금 바로 확인하려면 아래에 파일을 업로드하세요."
-    )
-    uploaded = st.file_uploader(f"'{FLOW_INPUT_PATH}' 파일 업로드", type=["csv"])
-    if uploaded is None:
-        st.stop()
-    return _flow_load(uploaded)
-
-
-@st.cache_data
-def get_flow_aggregates(_df, terminal_tuple=()):
-    """시간대/출국장/터미널 단위 집계 결과를 계산한다 (analyze_passenger_flow.build_dashboard_data 재사용).
-    terminal_tuple 이 비어있으면(=전체 선택) 필터링하지 않는다."""
-    df = _df
-    if terminal_tuple:
-        df = df[df["tmnl_cd"].isin(terminal_tuple)]
-    return flow_build_dashboard_data(df)
-
-
-def render_passenger_flow_dashboard():
-    st.title("출국장 여객흐름 분석 대시보드")
-    st.caption("터미널 · 출국장 · 시간대별 처리 여객수 · 평균 소요시간 · 대기열 규모 (Xovis 센서 원본 기반)")
-
-    flow_df = get_flow_raw_df()
-
-    # ---------------------------------------------------------------
-    # 터미널 선택 (사이드바): 버튼을 눌러서 터미널별로 분석
-    # ---------------------------------------------------------------
-    all_terminals = sorted(flow_df["tmnl_cd"].unique().tolist())
-    if "selected_terminal" not in st.session_state:
-        st.session_state.selected_terminal = "전체"
-
-    st.sidebar.header("터미널 선택")
-    term_options = ["전체"] + all_terminals
-    tcols = st.sidebar.columns(len(term_options))
-    for col, t in zip(tcols, term_options):
-        is_selected = st.session_state.selected_terminal == t
-        if col.button(
-            t, key=f"term_btn_{t}",
-            type="primary" if is_selected else "secondary",
-            use_container_width=True,
-        ):
-            st.session_state.selected_terminal = t
-            st.rerun()
-
-    if st.session_state.selected_terminal == "전체":
-        terminal_key = tuple()
-    else:
-        terminal_key = (st.session_state.selected_terminal,)
-
-    data = get_flow_aggregates(flow_df, terminal_key)
-
-    label = "전체 터미널" if st.session_state.selected_terminal == "전체" else st.session_state.selected_terminal
-    st.caption(f"현재 보기: {label}  ·  분석기간 {data['meta']['date_min']} ~ {data['meta']['date_max']}")
-
-    has_processed = data["meta"]["total_processed"] > 0
-    k1, k2, k3, k4 = st.columns(4)
-    k1.metric("총 처리 여객", f"{data['meta']['total_processed']:,}명" if has_processed else "집계 불가")
-    k2.metric("평균 소요시간", f"{data['meta']['avg_wait_sec']/60:.1f}분")
-    k3.metric("피크 시간대", f"{data['meta']['peak_hour']}시" if has_processed else "-")
-    k4.metric("최다혼잡 출국장", data["meta"]["busiest_zone"] if has_processed else "-")
-    if not has_processed:
-        st.caption("⚠ 이 데이터에는 처리여객수 집계에 필요한 값이 없어 소요시간·대기열 지표만 제공됩니다.")
-
-    st.divider()
-
-    # -------------------------------------------------------------------
-    # 01. 시간대별 전체 흐름
-    # -------------------------------------------------------------------
-    st.markdown('<p class="section-label">01 · 시간대별 전체 흐름</p>', unsafe_allow_html=True)
-    c1, c2 = st.columns([1.4, 1])
-    with c1:
-        st.subheader("시간대별 처리 여객수")
-        bh = data["by_hour"]
-        if has_processed:
-            fig = go.Figure(go.Bar(
-                x=bh["hours"], y=bh["processed"], marker_color=BLUE, marker=dict(cornerradius=4),
-            ))
-            fig.update_layout(**base_layout(280))
-            st.plotly_chart(fig, use_container_width=True)
-        else:
-            st.info("이 데이터에는 처리여객수 집계에 필요한 값이 없습니다.")
-    with c2:
-        st.subheader("시간대별 평균 소요시간 (분)")
-        fig = go.Figure(go.Scatter(
-            x=bh["hours"], y=[v / 60 for v in bh["avg_wait_sec"]], mode="lines",
-            line=dict(color=YELLOW, width=2), fill="tozeroy", fillcolor="rgba(237,161,0,0.12)",
-        ))
-        fig.update_layout(**base_layout(280))
-        fig.update_xaxes(nticks=8)
-        fig.update_yaxes(title="소요시간(분)")
-        st.plotly_chart(fig, use_container_width=True)
-
-    # -------------------------------------------------------------------
-    # 02. 출국장별 비교
-    # -------------------------------------------------------------------
-    st.markdown('<p class="section-label">02 · 출국장별 비교</p>', unsafe_allow_html=True)
-    bz = data["by_zone"]
-    zone_items = lambda values: [{"name": n, "value": v} for n, v in zip(bz["zones"], values)]
-
-    c3, c4, c5 = st.columns(3)
-    with c3:
-        st.subheader("출국장별 처리 여객수")
-        if has_processed:
-            st.plotly_chart(vbar(zone_items(bz["processed"]), AQUA, 260), use_container_width=True)
-        else:
-            st.info("집계 불가")
-    with c4:
-        st.subheader("출국장별 평균 소요시간 (분)")
-        wait_min_items = [{"name": n, "value": v / 60} for n, v in zip(bz["zones"], bz["avg_wait_sec"])]
-        st.plotly_chart(vbar(wait_min_items, RED, 260), use_container_width=True)
-    with c5:
-        st.subheader("출국장별 평균 대기열")
-        st.plotly_chart(vbar(zone_items(bz["queue_avg"]), VIOLET, 260), use_container_width=True)
-
-    # -------------------------------------------------------------------
-    # 03. 터미널별 비교
-    # -------------------------------------------------------------------
-    st.markdown('<p class="section-label">03 · 터미널별 비교</p>', unsafe_allow_html=True)
-    bt = data["by_terminal"]
-    if len(bt) > 1:
-        bt_items = lambda key: [{"name": t["terminal"], "value": t[key]} for t in bt]
-        ct1, ct2, ct3 = st.columns(3)
-        with ct1:
-            st.subheader("터미널별 처리 여객수")
-            if has_processed:
-                st.plotly_chart(vbar(bt_items("processed"), BLUE, 240), use_container_width=True)
-            else:
-                st.info("집계 불가")
-        with ct2:
-            st.subheader("터미널별 평균 소요시간 (분)")
-            wait_min_bt = [{"name": t["terminal"], "value": t["avg_wait_sec"] / 60} for t in bt]
-            st.plotly_chart(vbar(wait_min_bt, RED, 240), use_container_width=True)
-        with ct3:
-            st.subheader("터미널별 평균 대기열")
-            st.plotly_chart(vbar(bt_items("queue_avg"), VIOLET, 240), use_container_width=True)
-    else:
-        st.info(
-            f"현재 데이터에는 터미널이 '{bt[0]['terminal']}' 하나만 존재해 터미널 간 비교를 표시할 수 없습니다. "
-            "다른 터미널 데이터가 추가되면 이 화면이 자동으로 터미널별 비교 차트를 그립니다."
-        )
-        tk1, tk2, tk3 = st.columns(3)
-        tk1.metric(f"{bt[0]['terminal']} 총 처리여객", f"{bt[0]['processed']:,}명")
-        tk2.metric(f"{bt[0]['terminal']} 평균 소요시간", f"{bt[0]['avg_wait_sec']/60:.1f}분")
-        tk3.metric(f"{bt[0]['terminal']} 평균 대기열", f"{bt[0]['queue_avg']}명")
-
-    # -------------------------------------------------------------------
-    # 04. 출국장 x 시간대 히트맵
-    # -------------------------------------------------------------------
-    st.markdown('<p class="section-label">04 · 출국장 × 시간대 히트맵</p>', unsafe_allow_html=True)
-    st.subheader("출국장별 시간대별 처리 여객수")
-    if has_processed:
-        hm = data["heatmap_processed"]
-        fig = go.Figure(go.Heatmap(
-            z=hm["matrix"], x=hm["hours"], y=hm["zones"],
-            colorscale=[[0, "#f4f6fc"], [1, BLUE]],
-            showscale=True, hovertemplate="%{y} · %{x}<br>처리여객 %{z:,}명<extra></extra>",
-        ))
-        fig.update_layout(
-            height=360, margin=dict(l=8, r=8, t=8, b=8), font=CHART_FONT,
-            plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
-        )
-        st.plotly_chart(fig, use_container_width=True)
-    else:
-        st.info("이 데이터에는 처리여객수 집계에 필요한 값이 없어 히트맵을 표시할 수 없습니다.")
-
-    # -------------------------------------------------------------------
-    # 05. 측정지점별 비교 (입구 동/서 vs 보안검색대)
-    # -------------------------------------------------------------------
-    st.markdown('<p class="section-label">05 · 측정지점별 비교</p>', unsafe_allow_html=True)
-    st.caption("입구(동/서)와 보안검색대 중 어느 구간에서 지연이 발생하는지 비교합니다.")
-    bp = data.get("by_measure_point")
-    if bp and bp.get("points"):
-        point_items = lambda values: [{"name": n, "value": v} for n, v in zip(bp["points"], values)]
-        cp1, cp2 = st.columns(2)
-        with cp1:
-            st.subheader("측정지점별 평균 대기열")
-            st.plotly_chart(hbar(point_items(bp["queue_avg"]), AQUA, 200), use_container_width=True)
-        with cp2:
-            st.subheader("측정지점별 평균 소요시간 (분)")
-            wait_min_points = [{"name": n, "value": v / 60} for n, v in zip(bp["points"], bp["avg_wait_sec"])]
-            st.plotly_chart(hbar(wait_min_points, YELLOW, 200), use_container_width=True)
-
-    st.caption(
-        f"{FLOW_INPUT_PATH} 기반 · analyze_passenger_flow.py 집계 로직 재사용 · "
-        "소요시간·대기열은 처리여객수 가중평균(0-활동 구간 제외) 방식으로 이상치에 견고하게 집계"
-    )
-
-
-# =============================================================================
-# 출국장 여객흐름 분석_2 (월별 비교: 2월 vs 6월, Xovis 센서 원본 기반)
-#   기본 "출국장 여객흐름 분석" 페이지와 완전히 동일한 집계 로직
-#   (analyze_passenger_flow.py 의 load_and_prepare() / build_dashboard_data())을
-#   재사용하되, 서로 다른 월의 원본 파일을 버튼으로 전환해서 볼 수 있게 한다.
-#     2월 = xovis_flow_02m.csv (`26.2.12~2.14, 출입국 모니터링 1차 보고서와 같은 기간)
+#   재사용하되, 서로 다른 월의 원본 파일을 왼쪽 사이드바 버튼으로 전환해서 볼 수
+#   있게 한다.
+#     2월 = xovis_flow_02m.csv (`26.2.9~2.14)
+#     3월 = xovis_flow_03m.csv (`26.3.9~3.14)
+#     4월 = xovis_flow_04m.csv (`26.4.6~4.11)
 #     6월 = xovis_flow_06m.csv (`26.6.20~6.22, 출입국 모니터링 2차 보고서와 같은 기간)
 # =============================================================================
 FLOW2_MONTH_FILES = {
     "2월": "xovis_flow_02m.csv",
+    "3월": "xovis_flow_03m.csv",
+    "4월": "xovis_flow_04m.csv",
     "6월": "xovis_flow_06m.csv",
 }
 FLOW2_APP_DIR = Path(__file__).resolve().parent
 
 
 def _find_flow2_data_file(filename):
-    candidates = [
-        FLOW2_APP_DIR / filename,
-        FLOW2_APP_DIR / "data" / filename,
-        Path(filename),
-    ]
+    """지정한 파일명(.csv) 그대로, 그리고 gzip 압축본(.csv.gz)까지 함께
+    찾는다 — GitHub 업로드 용량 절감을 위해 .gz로 커밋하는 경우가 많아서다."""
+    bases = [FLOW2_APP_DIR, FLOW2_APP_DIR / "data", Path(".")]
+    candidates = []
+    for base in bases:
+        candidates.append(base / filename)
+        candidates.append(base / f"{filename}.gz")
     for p in candidates:
         if p.exists():
             return p, candidates
@@ -743,7 +526,7 @@ def get_flow2_raw_df(month: str):
         + "\n\n저장소에 데이터 파일을 커밋했다면 경로/파일명을 확인해 주세요. "
         "지금 바로 확인하려면 아래에 파일을 업로드하세요."
     )
-    uploaded = st.file_uploader(f"'{filename}' 파일 업로드", type=["csv"], key=f"flow2_uploader_{month}")
+    uploaded = st.file_uploader(f"'{filename}'(.gz 압축본도 가능) 파일 업로드", type=["csv", "gz"], key=f"flow2_uploader_{month}")
     if uploaded is None:
         st.stop()
     return _flow2_load(uploaded)
@@ -758,9 +541,9 @@ def get_flow2_aggregates(_df, terminal_tuple=()):
     return flow_build_dashboard_data(df)
 
 
-def render_passenger_flow_dashboard_2():
-    st.title("출국장 여객흐름 분석_2 (월별 비교)")
-    st.caption("2월 vs 6월 · 터미널 · 출국장 · 시간대별 처리 여객수 · 평균 소요시간 · 대기열 규모 (Xovis 센서 원본 기반)")
+def render_passenger_flow_dashboard():
+    st.title("출국장 여객흐름 분석")
+    st.caption("월 선택 · 터미널 · 출국장 · 시간대별 처리 여객수 · 평균 소요시간 · 대기열 규모 (Xovis 센서 원본 기반)")
 
     # ---------------------------------------------------------------
     # 월 선택 (사이드바) — 기본 페이지와 완전히 동일한 분석을, 월만 바꿔서 본다
@@ -811,11 +594,13 @@ def render_passenger_flow_dashboard_2():
     st.caption(f"현재 보기: {month} · {term_label}  ·  분석기간 {data['meta']['date_min']} ~ {data['meta']['date_max']}")
 
     has_processed = data["meta"]["total_processed"] > 0
-    k1, k2, k3, k4 = st.columns(4)
+    has_processed = data["meta"]["total_processed"] > 0
+    k1, k2, k3, k4, k5 = st.columns(5)
     k1.metric("총 처리 여객", f"{data['meta']['total_processed']:,}명" if has_processed else "집계 불가")
     k2.metric("평균 소요시간", f"{data['meta']['avg_wait_sec']/60:.1f}분")
-    k3.metric("피크 시간대", f"{data['meta']['peak_hour']}시" if has_processed else "-")
-    k4.metric("최다혼잡 출국장", data["meta"]["busiest_zone"] if has_processed else "-")
+    k3.metric("P95 소요시간", f"{data['meta']['p95_wait_sec']/60:.1f}분")
+    k4.metric("피크 시간대", f"{data['meta']['peak_hour']}시" if has_processed else "-")
+    k5.metric("최다혼잡 출국장", data["meta"]["busiest_zone"] if has_processed else "-")
     if not has_processed:
         st.caption("⚠ 이 데이터에는 처리여객수 집계에 필요한 값이 없어 소요시간·대기열 지표만 제공됩니다.")
 
@@ -838,14 +623,20 @@ def render_passenger_flow_dashboard_2():
         else:
             st.info("이 데이터에는 처리여객수 집계에 필요한 값이 없습니다.")
     with c2:
-        st.subheader("시간대별 평균 소요시간 (분)")
-        fig = go.Figure(go.Scatter(
-            x=bh["hours"], y=[v / 60 for v in bh["avg_wait_sec"]], mode="lines",
+        st.subheader("시간대별 소요시간 (분)")
+        fig = go.Figure()
+        fig.add_trace(go.Scatter(
+            x=bh["hours"], y=[v / 60 for v in bh["avg_wait_sec"]], mode="lines", name="평균",
             line=dict(color=YELLOW, width=2), fill="tozeroy", fillcolor="rgba(237,161,0,0.12)",
         ))
-        fig.update_layout(**base_layout(280))
+        fig.add_trace(go.Scatter(
+            x=bh["hours"], y=[v / 60 for v in bh["p95_wait_sec"]], mode="lines", name="P95",
+            line=dict(color=RED, width=2, dash="dot"),
+        ))
+        fig.update_layout(**base_layout(280, showlegend=True))
         fig.update_xaxes(nticks=8)
         fig.update_yaxes(title="소요시간(분)")
+        fig.update_layout(legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0))
         st.plotly_chart(fig, use_container_width=True)
 
     # -------------------------------------------------------------------
@@ -863,9 +654,13 @@ def render_passenger_flow_dashboard_2():
         else:
             st.info("집계 불가")
     with c4:
-        st.subheader("출국장별 평균 소요시간 (분)")
-        wait_min_items = [{"name": n, "value": v / 60} for n, v in zip(bz["zones"], bz["avg_wait_sec"])]
-        st.plotly_chart(vbar(wait_min_items, RED, 260), use_container_width=True)
+        st.subheader("출국장별 소요시간 (분)")
+        fig_wz = go.Figure()
+        fig_wz.add_bar(name="평균", x=bz["zones"], y=[v / 60 for v in bz["avg_wait_sec"]], marker_color=RED)
+        fig_wz.add_bar(name="P95", x=bz["zones"], y=[v / 60 for v in bz["p95_wait_sec"]], marker_color=YELLOW)
+        fig_wz.update_layout(**base_layout(260, showlegend=True, barmode="group"))
+        fig_wz.update_layout(legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0))
+        st.plotly_chart(fig_wz, use_container_width=True)
     with c5:
         st.subheader("출국장별 평균 대기열")
         st.plotly_chart(vbar(zone_items(bz["queue_avg"]), VIOLET, 260), use_container_width=True)
@@ -885,9 +680,13 @@ def render_passenger_flow_dashboard_2():
             else:
                 st.info("집계 불가")
         with ct2:
-            st.subheader("터미널별 평균 소요시간 (분)")
-            wait_min_bt = [{"name": t["terminal"], "value": t["avg_wait_sec"] / 60} for t in bt]
-            st.plotly_chart(vbar(wait_min_bt, RED, 240), use_container_width=True)
+            st.subheader("터미널별 소요시간 (분)")
+            fig_wt = go.Figure()
+            fig_wt.add_bar(name="평균", x=[t["terminal"] for t in bt], y=[t["avg_wait_sec"] / 60 for t in bt], marker_color=RED)
+            fig_wt.add_bar(name="P95", x=[t["terminal"] for t in bt], y=[t["p95_wait_sec"] / 60 for t in bt], marker_color=YELLOW)
+            fig_wt.update_layout(**base_layout(240, showlegend=True, barmode="group"))
+            fig_wt.update_layout(legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0))
+            st.plotly_chart(fig_wt, use_container_width=True)
         with ct3:
             st.subheader("터미널별 평균 대기열")
             st.plotly_chart(vbar(bt_items("queue_avg"), VIOLET, 240), use_container_width=True)
@@ -895,10 +694,11 @@ def render_passenger_flow_dashboard_2():
         st.info(
             f"현재 데이터에는 터미널이 '{bt[0]['terminal']}' 하나만 존재해 터미널 간 비교를 표시할 수 없습니다."
         )
-        tk1, tk2, tk3 = st.columns(3)
+        tk1, tk2, tk3, tk4 = st.columns(4)
         tk1.metric(f"{bt[0]['terminal']} 총 처리여객", f"{bt[0]['processed']:,}명")
         tk2.metric(f"{bt[0]['terminal']} 평균 소요시간", f"{bt[0]['avg_wait_sec']/60:.1f}분")
-        tk3.metric(f"{bt[0]['terminal']} 평균 대기열", f"{bt[0]['queue_avg']}명")
+        tk3.metric(f"{bt[0]['terminal']} P95 소요시간", f"{bt[0]['p95_wait_sec']/60:.1f}분")
+        tk4.metric(f"{bt[0]['terminal']} 평균 대기열", f"{bt[0]['queue_avg']}명")
 
     # -------------------------------------------------------------------
     # 04. 출국장 x 시간대 히트맵
@@ -933,9 +733,116 @@ def render_passenger_flow_dashboard_2():
             st.subheader("측정지점별 평균 대기열")
             st.plotly_chart(hbar(point_items(bp["queue_avg"]), AQUA, 200), use_container_width=True)
         with cp2:
-            st.subheader("측정지점별 평균 소요시간 (분)")
-            wait_min_points = [{"name": n, "value": v / 60} for n, v in zip(bp["points"], bp["avg_wait_sec"])]
-            st.plotly_chart(hbar(wait_min_points, YELLOW, 200), use_container_width=True)
+            st.subheader("측정지점별 소요시간 (분)")
+            fig_wp = go.Figure()
+            fig_wp.add_bar(name="평균", y=bp["points"], x=[v / 60 for v in bp["avg_wait_sec"]], orientation="h", marker_color=RED)
+            fig_wp.add_bar(name="P95", y=bp["points"], x=[v / 60 for v in bp["p95_wait_sec"]], orientation="h", marker_color=YELLOW)
+            fig_wp.update_layout(**base_layout(200, showlegend=True, barmode="group"))
+            fig_wp.update_layout(legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0))
+            st.plotly_chart(fig_wp, use_container_width=True)
+
+    # -------------------------------------------------------------------
+    # 06. 스마트패스 vs 일반 출국장 그룹 비교
+    # -------------------------------------------------------------------
+    st.markdown('<p class="section-label">06 · 스마트패스 vs 일반 그룹 비교</p>', unsafe_allow_html=True)
+    bg = data.get("by_gate_group")
+    if bg:
+        group_zones_caption = " · ".join(f"{g['group']}: {', '.join(g['zones'])}" for g in bg)
+        st.caption(group_zones_caption)
+        gg1, gg2, gg3, gg4 = st.columns(4)
+        group_colors = {"스마트패스": AQUA, "일반": GRAY}
+        bar_colors_bg = [group_colors.get(g["group"], BLUE) for g in bg]
+        with gg1:
+            st.subheader("그룹별 처리 여객수")
+            if has_processed:
+                fig_g1 = go.Figure(go.Bar(
+                    x=[g["group"] for g in bg], y=[g["processed"] for g in bg],
+                    marker_color=bar_colors_bg, marker=dict(cornerradius=4),
+                ))
+                fig_g1.update_layout(**base_layout(240))
+                st.plotly_chart(fig_g1, use_container_width=True)
+            else:
+                st.info("집계 불가")
+        with gg2:
+            st.subheader("그룹별 평균 소요시간 (분)")
+            fig_g2 = go.Figure(go.Bar(
+                x=[g["group"] for g in bg], y=[g["avg_wait_sec"] / 60 for g in bg],
+                marker_color=bar_colors_bg, marker=dict(cornerradius=4),
+            ))
+            fig_g2.update_layout(**base_layout(240))
+            st.plotly_chart(fig_g2, use_container_width=True)
+        with gg3:
+            st.subheader("그룹별 P95 소요시간 (분)")
+            fig_g3 = go.Figure(go.Bar(
+                x=[g["group"] for g in bg], y=[g["p95_wait_sec"] / 60 for g in bg],
+                marker_color=bar_colors_bg, marker=dict(cornerradius=4),
+            ))
+            fig_g3.update_layout(**base_layout(240))
+            st.plotly_chart(fig_g3, use_container_width=True)
+        with gg4:
+            st.subheader("그룹별 평균 대기열")
+            fig_g4 = go.Figure(go.Bar(
+                x=[g["group"] for g in bg], y=[g["queue_avg"] for g in bg],
+                marker_color=bar_colors_bg, marker=dict(cornerradius=4),
+            ))
+            fig_g4.update_layout(**base_layout(240))
+            st.plotly_chart(fig_g4, use_container_width=True)
+
+        # 시간대별 추이 — 전체 평균만 보면 왜 차이가 나는지 알기 어려워서,
+        # 어느 시간대에 격차가 벌어지는지 확인할 수 있게 추가.
+        ggh = data.get("gate_group_by_hour", {})
+        if ggh:
+            st.caption("⚠ 결함으로 자동 탐지된 센서(예: 대기열이 수천 명까지 찍히는 비정상 스트림)는 제외하고 계산했습니다.")
+            gh1, gh2 = st.columns(2)
+            group_line_colors = {"스마트패스": AQUA, "일반": GRAY}
+            with gh1:
+                st.subheader("시간대별 평균 소요시간 (분)")
+                fig_gh1 = go.Figure()
+                for grp, series in ggh.items():
+                    fig_gh1.add_trace(go.Scatter(
+                        x=series["hours"], y=[v / 60 for v in series["avg_wait_sec"]],
+                        mode="lines+markers", name=grp,
+                        line=dict(width=2.2, color=group_line_colors.get(grp)),
+                        marker=dict(size=4),
+                    ))
+                fig_gh1.update_layout(**base_layout(300, showlegend=True))
+                fig_gh1.update_layout(
+                    legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0),
+                    yaxis=dict(title="소요시간(분)"),
+                )
+                st.plotly_chart(fig_gh1, use_container_width=True)
+            with gh2:
+                st.subheader("시간대별 P95 소요시간 (분)")
+                fig_gh2 = go.Figure()
+                for grp, series in ggh.items():
+                    fig_gh2.add_trace(go.Scatter(
+                        x=series["hours"], y=[v / 60 for v in series["p95_wait_sec"]],
+                        mode="lines+markers", name=grp,
+                        line=dict(width=2.2, color=group_line_colors.get(grp)),
+                        marker=dict(size=4),
+                    ))
+                fig_gh2.update_layout(**base_layout(300, showlegend=True))
+                fig_gh2.update_layout(
+                    legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0),
+                    yaxis=dict(title="소요시간(분)"),
+                )
+                st.plotly_chart(fig_gh2, use_container_width=True)
+
+            # 차트만으로는 정확한 값을 읽기 어려워서, 시간대별 실제 수치를
+            # 표로도 함께 제공한다 (평균·P95·대기열, 그룹별).
+            st.subheader("시간대별 분석 값")
+            hours_ref = next(iter(ggh.values()))["hours"]
+            table_rows = []
+            for h_idx, h in enumerate(hours_ref):
+                row = {"시간대": h}
+                for grp, series in ggh.items():
+                    row[f"{grp} 평균(분)"] = round(series["avg_wait_sec"][h_idx] / 60, 1)
+                    row[f"{grp} P95(분)"] = round(series["p95_wait_sec"][h_idx] / 60, 1)
+                    row[f"{grp} 대기열(명)"] = series["queue_avg"][h_idx]
+                table_rows.append(row)
+            st.dataframe(pd.DataFrame(table_rows), use_container_width=True, hide_index=True)
+    else:
+        st.info("스마트패스/일반 그룹 데이터가 없습니다.")
 
     st.caption(
         f"{FLOW2_MONTH_FILES[month]} 기반 · analyze_passenger_flow.py 집계 로직 재사용(기본 여객흐름 페이지와 동일) · "
@@ -1301,6 +1208,53 @@ def render_immigration_dashboard():
         fig4.update_layout(legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0), yaxis=dict(title="소요시간(분)"))
         st.plotly_chart(fig4, use_container_width=True)
 
+    # ---------------------------------------------------------------
+    # 06. 스마트패스 vs 일반 게이트 그룹 비교
+    #     (현재 report/category 선택 기준 — "전체"면 여러 조합을 겹쳐서 비교)
+    # ---------------------------------------------------------------
+    st.markdown('<p class="section-label">06 · 스마트패스 vs 일반 그룹 비교</p>', unsafe_allow_html=True)
+    bgg_all = data.get("by_gate_group", [])
+    bgg_reports = resolve_list(report, all_reports)
+    bgg_categories = resolve_list(category, all_categories)
+    bgg_metrics = resolve_list(metric, ["P95", "평균"])
+    bgg_rows = [g for g in bgg_all if g["report"] in bgg_reports and g["category"] in bgg_categories and g["metric"] in bgg_metrics]
+
+    if bgg_rows:
+        group_gate_map = {g["group"]: g["gates"] for g in bgg_all
+                           if g["report"] == bgg_reports[0] and g["category"] == bgg_categories[0] and g["metric"] == "P95"}
+        st.caption(" · ".join(f"{grp}: {', '.join(gates)}" for grp, gates in group_gate_map.items()))
+
+        # 표시 라벨: report/category가 "전체"라 여러 조합이 섞이면 라벨에 구분 표기
+        def _label(g):
+            parts = []
+            if len(bgg_reports) > 1:
+                parts.append(g["report"])
+            if len(bgg_categories) > 1:
+                parts.append(g["category"])
+            if len(bgg_metrics) > 1:
+                parts.append(g["metric"])
+            return " · ".join(parts) if parts else g["group"]
+
+        fig6 = go.Figure()
+        group_colors = {"스마트패스": AQUA, "일반": GRAY}
+        for grp in ["스마트패스", "일반"]:
+            rows_g = [g for g in bgg_rows if g["group"] == grp]
+            if not rows_g:
+                continue
+            fig6.add_bar(
+                name=grp, x=[_label(g) for g in rows_g], y=[g["avg_seconds"] / 60 for g in rows_g],
+                marker_color=group_colors[grp],
+            )
+        fig6.update_layout(**base_layout(300, showlegend=True, barmode="group"))
+        fig6.update_layout(
+            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0),
+            yaxis=dict(title="평균 소요시간(분, 그룹 내 게이트 단순평균)"),
+        )
+        st.subheader("스마트패스 vs 일반 — 게이트 단순평균 소요시간")
+        st.plotly_chart(fig6, use_container_width=True)
+    else:
+        st.info("스마트패스/일반 그룹 데이터가 없습니다.")
+
     st.caption(f"{IMM_INPUT_PATH} 기반 · analyze_immigration.py 집계 로직 재사용 · 11~13시는 원본 표에 데이터가 없어 제외됨")
 
 
@@ -1310,7 +1264,7 @@ def render_immigration_dashboard():
 st.sidebar.markdown("### 분석 유형")
 selected_page = st.sidebar.radio(
     "분석 유형 선택",
-    ["VOC 분석", "출국장 여객흐름 분석", "출국장 여객 흐름 분석_2", "출입국 심사 소요시간 모니터링"],
+    ["VOC 분석", "출국장 여객흐름 분석", "출입국 심사 소요시간 모니터링"],
     label_visibility="collapsed",
 )
 st.sidebar.divider()
@@ -1319,8 +1273,6 @@ if selected_page == "VOC 분석":
     render_voc_dashboard()
 elif selected_page == "출국장 여객흐름 분석":
     render_passenger_flow_dashboard()
-elif selected_page == "출국장 여객 흐름 분석_2":
-    render_passenger_flow_dashboard_2()
 else:
     render_immigration_dashboard()
 

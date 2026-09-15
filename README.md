@@ -2,8 +2,7 @@
 
 Streamlit 기반 3페이지 대시보드
 - **VOC 분석**: 보안검색 VOC 접수 데이터 분석 (연도·답변부서 필터)
-- **출국장 여객흐름 분석**: Xovis 센서 원본 기반 처리여객/소요시간/대기열 분석 (터미널 필터)
-- **출국장 여객 흐름 분석_2**: 기본 여객흐름 분석과 동일한 로직 · 2월/6월 데이터 전환 (월 + 터미널 필터)
+- **출국장 여객흐름 분석**: Xovis 센서 원본 기반 처리여객/소요시간/대기열/스마트패스 분석 (월 + 터미널 필터, 2·3·4·6월 전환)
 - **출입국 심사 소요시간 모니터링**: 신분확인·보안검색 소요시간 리포트 분석 (보고서 회차·절차구분·터미널·지표 필터)
 
 ## 1. 저장소(레포지토리) 구성
@@ -19,17 +18,18 @@ repo/
 ├── requirements.txt                # 파이썬 패키지 목록
 ├── runtime.txt                     # (선택) 파이썬 버전 고정
 ├── voc_raw.xlsx                    # VOC 원본 데이터 ← 직접 추가 필요
-├── xovis_flow.csv                  # 여객흐름 원본 데이터 ← 직접 추가 필요
-├── xovis_flow_02m.csv               # 여객흐름_2 원본 데이터(2월) ← 직접 추가 필요
-├── xovis_flow_06m.csv               # 여객흐름_2 원본 데이터(6월) ← 직접 추가 필요
+├── xovis_flow_02m.csv               # 여객흐름 원본 데이터(2월) ← 직접 추가 필요
+├── xovis_flow_03m.csv               # 여객흐름 원본 데이터(3월) ← 직접 추가 필요
+├── xovis_flow_04m.csv               # 여객흐름 원본 데이터(4월) ← 직접 추가 필요
+├── xovis_flow_06m.csv               # 여객흐름 원본 데이터(6월) ← 직접 추가 필요
 └── immigration_processing_time.csv # 출입국 심사 소요시간 원본 데이터 ← 직접 추가 필요
 ```
 
 `voc_dashboard_app.py`, `analyze_voc.py`, `analyze_passenger_flow.py`,
 `analyze_immigration.py`, `requirements.txt`, `runtime.txt`는 이 대화에서 만든
 파일을 그대로 커밋하면 됩니다.
-**`voc_raw.xlsx`, `xovis_flow.csv`, `xovis_flow_02m.csv`, `xovis_flow_06m.csv`,
-`immigration_processing_time.csv`는 원본
+**`voc_raw.xlsx`, `xovis_flow_02m.csv`, `xovis_flow_03m.csv`, `xovis_flow_04m.csv`,
+`xovis_flow_06m.csv`, `immigration_processing_time.csv`는 원본
 데이터라 별도로 저장소에 추가**해야 합니다.
 
 `immigration_processing_time.csv`는 인천공항 "출입국 소요시간 모니터링 결과
@@ -45,12 +45,23 @@ repo/
 
 권장합니다.
 
-### 파일 크기가 큰 경우 (GitHub 100MB 제한)
-`voc_raw.xlsx`나 `xovis_flow.csv`가 100MB를 넘으면 일반 git으로 올릴 수 없습니다.
+### 파일 크기가 큰 경우 (GitHub 업로드 문제)
+**Xovis 원본 CSV는 gzip으로 압축해서 커밋하는 걸 권장합니다.** 반복적인
+텍스트가 많은 센서 로그 특성상 압축률이 매우 높습니다(실측 약 94% 감소,
+22MB → 1.4MB). 코드도 이미 `.csv.gz`를 자동으로 찾아 그대로 읽도록
+되어 있어(gzip 압축 상태 그대로 pandas가 읽음) 추가 작업이 필요 없습니다.
+
+```bash
+gzip -9 -k xovis_flow_02m.csv   # xovis_flow_02m.csv.gz 생성 (-k: 원본 유지)
+```
+
+파일명 규칙: `xovis_flow_02m.csv` 대신 `xovis_flow_02m.csv.gz`로 저장소에
+커밋하면 됩니다. 앱이 `.csv`가 없으면 자동으로 `.csv.gz`를 찾습니다.
+
+그래도 100MB(GitHub 하드 리밋)를 넘으면:
 - **Git LFS** 사용, 또는
-- 데이터를 S3/Google Drive 등 외부 스토리지에 두고 `get_raw_df()` /
-  `get_flow_raw_df()` 안에서 다운로드하도록 코드를 수정 (필요하면 말씀해 주세요,
-  바로 수정해 드립니다)
+- 데이터를 S3/Google Drive 등 외부 스토리지에 두고 로더 함수 안에서
+  다운로드하도록 코드를 수정 (필요하면 말씀해 주세요, 바로 수정해 드립니다)
 
 ## 2. Streamlit Community Cloud 배포 절차
 
