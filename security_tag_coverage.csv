@@ -1,0 +1,5 @@
+﻿month,terminal,security_records,devices,status
+4,T1,0,0,SCSH records; SG completeness unverified
+4,T2,0,0,SCSH records; SG completeness unverified
+10,T1,4167,1,SCSH records; SG completeness unverified
+10,T2,797,8,SCSH records; SG completeness unverified
