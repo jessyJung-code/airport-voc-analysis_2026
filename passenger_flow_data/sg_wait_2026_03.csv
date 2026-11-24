@@ -1,0 +1,2017 @@
+﻿date,hour,terminal,departure_gate,sg_zone,mapping_status,wait_seconds_sum,wait_seconds_count,wait_seconds_sum_p95,wait_seconds_count_p95,wait_seconds_p95,queue_length_sum,queue_length_count,queue_length_sum_p95,queue_length_count_p95,queue_length_p95
+2026-03-09,0,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-09,1,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-09,2,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-09,3,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-09,4,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-09,5,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-09,6,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-09,7,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-09,8,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-09,9,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-09,10,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-09,11,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-09,12,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-09,13,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-09,14,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-09,15,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-09,16,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-09,17,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-09,18,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-09,19,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-09,20,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,10.0,60,0.0,55,0.0
+2026-03-09,21,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-09,22,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-09,23,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-10,0,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-10,1,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-10,2,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-10,3,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-10,4,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-10,5,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-10,6,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-10,7,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-10,8,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-10,9,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,6.0,60,0.0,54,0.0
+2026-03-10,10,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-10,11,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-10,12,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-10,13,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-10,14,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-10,15,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-10,16,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-10,17,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-10,18,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-10,19,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-10,20,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-10,21,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-10,22,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-10,23,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-11,0,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-11,1,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-11,2,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-11,3,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-11,4,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-11,5,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-11,6,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-11,7,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-11,8,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-11,9,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-11,10,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-11,11,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-11,12,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-11,13,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-11,14,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-11,15,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-11,16,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-11,17,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-11,18,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-11,19,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-11,20,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-11,21,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-11,22,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-11,23,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-12,0,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-12,1,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-12,2,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-12,3,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-12,4,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-12,5,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-12,6,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-12,7,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-12,8,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-12,9,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-12,10,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-12,11,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-12,12,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-12,13,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-12,14,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-12,15,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-12,16,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-12,17,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-12,18,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-12,19,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-12,20,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-12,21,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-12,22,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-12,23,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-13,0,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-13,1,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-13,2,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-13,3,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-13,4,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-13,5,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-13,6,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-13,7,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-13,8,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-13,9,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-13,10,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-13,11,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-13,12,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-13,13,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-13,14,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-13,15,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-13,16,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-13,17,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-13,18,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-13,19,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-13,20,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-13,21,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-13,22,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-13,23,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-14,0,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-14,1,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-14,2,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-14,3,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-14,4,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-14,5,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-14,6,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-14,7,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-14,8,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-14,9,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-14,10,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-14,11,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-14,12,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-14,13,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-14,14,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-14,15,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-14,16,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-14,17,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-14,18,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-14,19,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-14,20,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-14,21,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-14,22,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-14,23,T1,1,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,0.0
+2026-03-09,0,T1,2,Security Check of Departure Ga,SG,0.0,60,0.0,60,219.0,16.0,60,16.0,60,57.0
+2026-03-09,1,T1,2,Security Check of Departure Ga,SG,23.0,60,23.0,60,219.0,42.0,60,42.0,60,57.0
+2026-03-09,2,T1,2,Security Check of Departure Ga,SG,2219.0,60,2219.0,60,219.0,39.0,60,39.0,60,57.0
+2026-03-09,3,T1,2,Security Check of Departure Ga,SG,1.0,60,1.0,60,219.0,1.0,60,1.0,60,57.0
+2026-03-09,4,T1,2,Security Check of Departure Ga,SG,0.0,60,0.0,60,219.0,0.0,60,0.0,60,57.0
+2026-03-09,5,T1,2,Security Check of Departure Ga,SG,62.0,60,62.0,60,219.0,12.0,60,12.0,60,57.0
+2026-03-09,6,T1,2,Security Check of Departure Ga,SG,6774.0,60,6774.0,60,219.0,1664.0,60,1539.0,58,57.0
+2026-03-09,7,T1,2,Security Check of Departure Ga,SG,19806.0,60,907.0,5,219.0,6524.0,60,52.0,1,57.0
+2026-03-09,8,T1,2,Security Check of Departure Ga,SG,8748.0,60,6336.0,50,219.0,2338.0,60,1472.0,48,57.0
+2026-03-09,9,T1,2,Security Check of Departure Ga,SG,8595.0,60,6631.0,52,219.0,2265.0,60,1452.0,48,57.0
+2026-03-09,10,T1,2,Security Check of Departure Ga,SG,5304.0,60,5304.0,60,219.0,971.0,60,971.0,60,57.0
+2026-03-09,11,T1,2,Security Check of Departure Ga,SG,13782.0,60,4415.0,23,219.0,3468.0,60,1254.0,26,57.0
+2026-03-09,12,T1,2,Security Check of Departure Ga,SG,14187.0,60,3309.0,17,219.0,3557.0,60,1360.0,27,57.0
+2026-03-09,13,T1,2,Security Check of Departure Ga,SG,5418.0,60,5418.0,60,219.0,1223.0,60,1223.0,60,57.0
+2026-03-09,14,T1,2,Security Check of Departure Ga,SG,5706.0,60,5706.0,60,219.0,1062.0,60,1062.0,60,57.0
+2026-03-09,15,T1,2,Security Check of Departure Ga,SG,6554.0,60,6554.0,60,219.0,1055.0,60,1055.0,60,57.0
+2026-03-09,16,T1,2,Security Check of Departure Ga,SG,10676.0,60,5907.0,42,219.0,2511.0,60,1362.0,43,57.0
+2026-03-09,17,T1,2,Security Check of Departure Ga,SG,7361.0,60,7361.0,60,219.0,1338.0,60,1338.0,60,57.0
+2026-03-09,18,T1,2,Security Check of Departure Ga,SG,4475.0,60,4475.0,60,219.0,571.0,60,571.0,60,57.0
+2026-03-09,19,T1,2,Security Check of Departure Ga,SG,2920.0,60,2920.0,60,219.0,229.0,60,229.0,60,57.0
+2026-03-09,20,T1,2,Security Check of Departure Ga,SG,246.0,60,246.0,60,219.0,8.0,60,8.0,60,57.0
+2026-03-09,21,T1,2,Security Check of Departure Ga,SG,1.0,60,1.0,60,219.0,0.0,60,0.0,60,57.0
+2026-03-09,22,T1,2,Security Check of Departure Ga,SG,1.0,60,1.0,60,219.0,0.0,60,0.0,60,57.0
+2026-03-09,23,T1,2,Security Check of Departure Ga,SG,6.0,60,6.0,60,219.0,0.0,60,0.0,60,57.0
+2026-03-10,0,T1,2,Security Check of Departure Ga,SG,4.0,60,4.0,60,219.0,0.0,60,0.0,60,57.0
+2026-03-10,1,T1,2,Security Check of Departure Ga,SG,1.0,60,1.0,60,219.0,0.0,60,0.0,60,57.0
+2026-03-10,2,T1,2,Security Check of Departure Ga,SG,4.0,60,4.0,60,219.0,0.0,60,0.0,60,57.0
+2026-03-10,3,T1,2,Security Check of Departure Ga,SG,2.0,60,2.0,60,219.0,0.0,60,0.0,60,57.0
+2026-03-10,4,T1,2,Security Check of Departure Ga,SG,0.0,60,0.0,60,219.0,0.0,60,0.0,60,57.0
+2026-03-10,5,T1,2,Security Check of Departure Ga,SG,362.0,60,362.0,60,219.0,28.0,60,28.0,60,57.0
+2026-03-10,6,T1,2,Security Check of Departure Ga,SG,4814.0,60,4814.0,60,219.0,727.0,60,727.0,60,57.0
+2026-03-10,7,T1,2,Security Check of Departure Ga,SG,7745.0,60,6964.0,57,219.0,1578.0,60,1220.0,55,57.0
+2026-03-10,8,T1,2,Security Check of Departure Ga,SG,7597.0,60,6752.0,57,219.0,1810.0,60,1810.0,60,57.0
+2026-03-10,9,T1,2,Security Check of Departure Ga,SG,7898.0,60,6926.0,56,219.0,1427.0,60,1427.0,60,57.0
+2026-03-10,10,T1,2,Security Check of Departure Ga,SG,8573.0,60,8121.0,58,219.0,1960.0,60,1720.0,56,57.0
+2026-03-10,11,T1,2,Security Check of Departure Ga,SG,6260.0,60,6260.0,60,219.0,1145.0,60,1145.0,60,57.0
+2026-03-10,12,T1,2,Security Check of Departure Ga,SG,6602.0,60,6602.0,60,219.0,867.0,60,867.0,60,57.0
+2026-03-10,13,T1,2,Security Check of Departure Ga,SG,3611.0,60,3611.0,60,219.0,331.0,60,331.0,60,57.0
+2026-03-10,14,T1,2,Security Check of Departure Ga,SG,5102.0,60,5102.0,60,219.0,741.0,60,741.0,60,57.0
+2026-03-10,15,T1,2,Security Check of Departure Ga,SG,6981.0,60,6981.0,60,219.0,1246.0,60,1246.0,60,57.0
+2026-03-10,16,T1,2,Security Check of Departure Ga,SG,5790.0,60,5790.0,60,219.0,1002.0,60,1002.0,60,57.0
+2026-03-10,17,T1,2,Security Check of Departure Ga,SG,5017.0,60,5017.0,60,219.0,739.0,60,739.0,60,57.0
+2026-03-10,18,T1,2,Security Check of Departure Ga,SG,4478.0,60,4478.0,60,219.0,464.0,60,464.0,60,57.0
+2026-03-10,19,T1,2,Security Check of Departure Ga,SG,3481.0,60,3481.0,60,219.0,240.0,60,240.0,60,57.0
+2026-03-10,20,T1,2,Security Check of Departure Ga,SG,93.0,60,93.0,60,219.0,52.0,60,52.0,60,57.0
+2026-03-10,21,T1,2,Security Check of Departure Ga,SG,109.0,60,109.0,60,219.0,95.0,60,95.0,60,57.0
+2026-03-10,22,T1,2,Security Check of Departure Ga,SG,36.0,60,36.0,60,219.0,56.0,60,56.0,60,57.0
+2026-03-10,23,T1,2,Security Check of Departure Ga,SG,56.0,60,56.0,60,219.0,66.0,60,66.0,60,57.0
+2026-03-11,0,T1,2,Security Check of Departure Ga,SG,1391.0,60,1391.0,60,219.0,98.0,60,98.0,60,57.0
+2026-03-11,1,T1,2,Security Check of Departure Ga,SG,2606.0,60,462.0,56,219.0,78.0,60,78.0,60,57.0
+2026-03-11,2,T1,2,Security Check of Departure Ga,SG,11182.0,60,2120.0,44,219.0,66.0,60,66.0,60,57.0
+2026-03-11,3,T1,2,Security Check of Departure Ga,SG,37.0,60,37.0,60,219.0,54.0,60,54.0,60,57.0
+2026-03-11,4,T1,2,Security Check of Departure Ga,SG,0.0,60,0.0,60,219.0,8.0,60,8.0,60,57.0
+2026-03-11,5,T1,2,Security Check of Departure Ga,SG,153.0,60,153.0,60,219.0,15.0,60,15.0,60,57.0
+2026-03-11,6,T1,2,Security Check of Departure Ga,SG,5670.0,60,5670.0,60,219.0,1111.0,60,1111.0,60,57.0
+2026-03-11,7,T1,2,Security Check of Departure Ga,SG,7721.0,60,7721.0,60,219.0,2241.0,60,1865.0,54,57.0
+2026-03-11,8,T1,2,Security Check of Departure Ga,SG,10951.0,60,8377.0,50,219.0,3376.0,60,1504.0,33,57.0
+2026-03-11,9,T1,2,Security Check of Departure Ga,SG,6545.0,60,6545.0,60,219.0,1628.0,60,1511.0,58,57.0
+2026-03-11,10,T1,2,Security Check of Departure Ga,SG,4349.0,60,4349.0,60,219.0,552.0,60,552.0,60,57.0
+2026-03-11,11,T1,2,Security Check of Departure Ga,SG,4972.0,60,4972.0,60,219.0,608.0,60,608.0,60,57.0
+2026-03-11,12,T1,2,Security Check of Departure Ga,SG,5115.0,60,5115.0,60,219.0,699.0,60,699.0,60,57.0
+2026-03-11,13,T1,2,Security Check of Departure Ga,SG,4179.0,60,4179.0,60,219.0,412.0,60,412.0,60,57.0
+2026-03-11,14,T1,2,Security Check of Departure Ga,SG,3597.0,60,3597.0,60,219.0,387.0,60,387.0,60,57.0
+2026-03-11,15,T1,2,Security Check of Departure Ga,SG,6909.0,60,5015.0,52,219.0,1501.0,60,1248.0,56,57.0
+2026-03-11,16,T1,2,Security Check of Departure Ga,SG,7605.0,60,7382.0,59,219.0,1869.0,60,1438.0,53,57.0
+2026-03-11,17,T1,2,Security Check of Departure Ga,SG,5066.0,60,5066.0,60,219.0,789.0,60,789.0,60,57.0
+2026-03-11,18,T1,2,Security Check of Departure Ga,SG,4295.0,60,4295.0,60,219.0,430.0,60,430.0,60,57.0
+2026-03-11,19,T1,2,Security Check of Departure Ga,SG,2614.0,60,2614.0,60,219.0,231.0,60,231.0,60,57.0
+2026-03-11,20,T1,2,Security Check of Departure Ga,SG,134.0,60,134.0,60,219.0,5.0,60,5.0,60,57.0
+2026-03-11,21,T1,2,Security Check of Departure Ga,SG,1.0,60,1.0,60,219.0,0.0,60,0.0,60,57.0
+2026-03-11,22,T1,2,Security Check of Departure Ga,SG,0.0,60,0.0,60,219.0,0.0,60,0.0,60,57.0
+2026-03-11,23,T1,2,Security Check of Departure Ga,SG,4.0,60,4.0,60,219.0,1.0,60,1.0,60,57.0
+2026-03-12,0,T1,2,Security Check of Departure Ga,SG,5.0,60,5.0,60,219.0,1.0,60,1.0,60,57.0
+2026-03-12,1,T1,2,Security Check of Departure Ga,SG,0.0,60,0.0,60,219.0,0.0,60,0.0,60,57.0
+2026-03-12,2,T1,2,Security Check of Departure Ga,SG,9.0,60,9.0,60,219.0,0.0,60,0.0,60,57.0
+2026-03-12,3,T1,2,Security Check of Departure Ga,SG,4.0,60,4.0,60,219.0,0.0,60,0.0,60,57.0
+2026-03-12,4,T1,2,Security Check of Departure Ga,SG,0.0,60,0.0,60,219.0,0.0,60,0.0,60,57.0
+2026-03-12,5,T1,2,Security Check of Departure Ga,SG,1370.0,60,1370.0,60,219.0,36.0,60,36.0,60,57.0
+2026-03-12,6,T1,2,Security Check of Departure Ga,SG,5545.0,60,4551.0,56,219.0,1299.0,60,793.0,54,57.0
+2026-03-12,7,T1,2,Security Check of Departure Ga,SG,5606.0,60,5606.0,60,219.0,1028.0,60,1028.0,60,57.0
+2026-03-12,8,T1,2,Security Check of Departure Ga,SG,6238.0,60,6238.0,60,219.0,1484.0,60,1484.0,60,57.0
+2026-03-12,9,T1,2,Security Check of Departure Ga,SG,7027.0,60,7027.0,60,219.0,1558.0,60,1558.0,60,57.0
+2026-03-12,10,T1,2,Security Check of Departure Ga,SG,5186.0,60,5186.0,60,219.0,594.0,60,594.0,60,57.0
+2026-03-12,11,T1,2,Security Check of Departure Ga,SG,4566.0,60,4566.0,60,219.0,571.0,60,571.0,60,57.0
+2026-03-12,12,T1,2,Security Check of Departure Ga,SG,8315.0,60,4466.0,48,219.0,1422.0,60,874.0,52,57.0
+2026-03-12,13,T1,2,Security Check of Departure Ga,SG,4083.0,60,4083.0,60,219.0,303.0,60,303.0,60,57.0
+2026-03-12,14,T1,2,Security Check of Departure Ga,SG,4223.0,60,4223.0,60,219.0,435.0,60,435.0,60,57.0
+2026-03-12,15,T1,2,Security Check of Departure Ga,SG,5561.0,60,5326.0,59,219.0,1080.0,60,1080.0,60,57.0
+2026-03-12,16,T1,2,Security Check of Departure Ga,SG,6242.0,60,6242.0,60,219.0,1186.0,60,1186.0,60,57.0
+2026-03-12,17,T1,2,Security Check of Departure Ga,SG,7722.0,60,6989.0,57,219.0,1725.0,60,1405.0,55,57.0
+2026-03-12,18,T1,2,Security Check of Departure Ga,SG,4740.0,60,4740.0,60,219.0,575.0,60,575.0,60,57.0
+2026-03-12,19,T1,2,Security Check of Departure Ga,SG,3390.0,60,3390.0,60,219.0,288.0,60,288.0,60,57.0
+2026-03-12,20,T1,2,Security Check of Departure Ga,SG,63.0,60,63.0,60,219.0,42.0,60,42.0,60,57.0
+2026-03-12,21,T1,2,Security Check of Departure Ga,SG,0.0,60,0.0,60,219.0,32.0,60,32.0,60,57.0
+2026-03-12,22,T1,2,Security Check of Departure Ga,SG,53.0,60,53.0,60,219.0,17.0,60,17.0,60,57.0
+2026-03-12,23,T1,2,Security Check of Departure Ga,SG,1.0,60,1.0,60,219.0,7.0,60,7.0,60,57.0
+2026-03-13,0,T1,2,Security Check of Departure Ga,SG,0.0,60,0.0,60,219.0,20.0,60,20.0,60,57.0
+2026-03-13,1,T1,2,Security Check of Departure Ga,SG,2.0,60,2.0,60,219.0,7.0,60,7.0,60,57.0
+2026-03-13,2,T1,2,Security Check of Departure Ga,SG,11.0,60,11.0,60,219.0,18.0,60,18.0,60,57.0
+2026-03-13,3,T1,2,Security Check of Departure Ga,SG,1.0,60,1.0,60,219.0,8.0,60,8.0,60,57.0
+2026-03-13,4,T1,2,Security Check of Departure Ga,SG,0.0,60,0.0,60,219.0,0.0,60,0.0,60,57.0
+2026-03-13,5,T1,2,Security Check of Departure Ga,SG,79.0,60,79.0,60,219.0,17.0,60,17.0,60,57.0
+2026-03-13,6,T1,2,Security Check of Departure Ga,SG,6705.0,60,6705.0,60,219.0,2010.0,60,1481.0,52,57.0
+2026-03-13,7,T1,2,Security Check of Departure Ga,SG,6226.0,60,6226.0,60,219.0,2083.0,60,2083.0,60,57.0
+2026-03-13,8,T1,2,Security Check of Departure Ga,SG,8011.0,60,6248.0,53,219.0,2072.0,60,1703.0,54,57.0
+2026-03-13,9,T1,2,Security Check of Departure Ga,SG,6136.0,60,6136.0,60,219.0,1054.0,60,1054.0,60,57.0
+2026-03-13,10,T1,2,Security Check of Departure Ga,SG,5489.0,60,5489.0,60,219.0,873.0,60,873.0,60,57.0
+2026-03-13,11,T1,2,Security Check of Departure Ga,SG,5569.0,60,5569.0,60,219.0,803.0,60,803.0,60,57.0
+2026-03-13,12,T1,2,Security Check of Departure Ga,SG,14968.0,60,2768.0,18,219.0,3134.0,60,1244.0,31,57.0
+2026-03-13,13,T1,2,Security Check of Departure Ga,SG,5692.0,60,5692.0,60,219.0,811.0,60,811.0,60,57.0
+2026-03-13,14,T1,2,Security Check of Departure Ga,SG,5670.0,60,5670.0,60,219.0,865.0,60,865.0,60,57.0
+2026-03-13,15,T1,2,Security Check of Departure Ga,SG,5370.0,60,5370.0,60,219.0,786.0,60,786.0,60,57.0
+2026-03-13,16,T1,2,Security Check of Departure Ga,SG,7950.0,60,7239.0,57,219.0,1790.0,60,1475.0,55,57.0
+2026-03-13,17,T1,2,Security Check of Departure Ga,SG,5840.0,60,5840.0,60,219.0,987.0,60,987.0,60,57.0
+2026-03-13,18,T1,2,Security Check of Departure Ga,SG,4260.0,60,4260.0,60,219.0,557.0,60,557.0,60,57.0
+2026-03-13,19,T1,2,Security Check of Departure Ga,SG,3511.0,60,3511.0,60,219.0,295.0,60,295.0,60,57.0
+2026-03-13,20,T1,2,Security Check of Departure Ga,SG,136.0,60,136.0,60,219.0,10.0,60,10.0,60,57.0
+2026-03-13,21,T1,2,Security Check of Departure Ga,SG,3.0,60,3.0,60,219.0,0.0,60,0.0,60,57.0
+2026-03-13,22,T1,2,Security Check of Departure Ga,SG,0.0,60,0.0,60,219.0,0.0,60,0.0,60,57.0
+2026-03-13,23,T1,2,Security Check of Departure Ga,SG,4.0,60,4.0,60,219.0,2.0,60,2.0,60,57.0
+2026-03-14,0,T1,2,Security Check of Departure Ga,SG,5.0,60,5.0,60,219.0,0.0,60,0.0,60,57.0
+2026-03-14,1,T1,2,Security Check of Departure Ga,SG,1.0,60,1.0,60,219.0,0.0,60,0.0,60,57.0
+2026-03-14,2,T1,2,Security Check of Departure Ga,SG,6.0,60,6.0,60,219.0,1.0,60,1.0,60,57.0
+2026-03-14,3,T1,2,Security Check of Departure Ga,SG,4.0,60,4.0,60,219.0,0.0,60,0.0,60,57.0
+2026-03-14,4,T1,2,Security Check of Departure Ga,SG,0.0,60,0.0,60,219.0,0.0,60,0.0,60,57.0
+2026-03-14,5,T1,2,Security Check of Departure Ga,SG,60.0,60,60.0,60,219.0,7.0,60,7.0,60,57.0
+2026-03-14,6,T1,2,Security Check of Departure Ga,SG,5512.0,60,5512.0,60,219.0,1123.0,60,1123.0,60,57.0
+2026-03-14,7,T1,2,Security Check of Departure Ga,SG,9525.0,60,5349.0,46,219.0,2448.0,60,1140.0,40,57.0
+2026-03-14,8,T1,2,Security Check of Departure Ga,SG,6581.0,60,6581.0,60,219.0,1723.0,60,1485.0,56,57.0
+2026-03-14,9,T1,2,Security Check of Departure Ga,SG,8132.0,60,6443.0,53,219.0,1573.0,60,1573.0,60,57.0
+2026-03-14,10,T1,2,Security Check of Departure Ga,SG,5738.0,60,5738.0,60,219.0,856.0,60,856.0,60,57.0
+2026-03-14,11,T1,2,Security Check of Departure Ga,SG,14923.0,60,3879.0,29,219.0,3441.0,60,1159.0,36,57.0
+2026-03-14,12,T1,2,Security Check of Departure Ga,SG,20835.0,60,0,0,219.0,5362.0,60,54.0,1,57.0
+2026-03-14,13,T1,2,Security Check of Departure Ga,SG,4639.0,60,4639.0,60,219.0,561.0,60,561.0,60,57.0
+2026-03-14,14,T1,2,Security Check of Departure Ga,SG,4858.0,60,4629.0,59,219.0,734.0,60,734.0,60,57.0
+2026-03-14,15,T1,2,Security Check of Departure Ga,SG,7196.0,60,4556.0,50,219.0,1707.0,60,1254.0,53,57.0
+2026-03-14,16,T1,2,Security Check of Departure Ga,SG,6242.0,60,4267.0,52,219.0,1269.0,60,842.0,54,57.0
+2026-03-14,17,T1,2,Security Check of Departure Ga,SG,5401.0,60,5401.0,60,219.0,968.0,60,968.0,60,57.0
+2026-03-14,18,T1,2,Security Check of Departure Ga,SG,3929.0,60,3929.0,60,219.0,444.0,60,444.0,60,57.0
+2026-03-14,19,T1,2,Security Check of Departure Ga,SG,4491.0,60,4491.0,60,219.0,465.0,60,465.0,60,57.0
+2026-03-14,20,T1,2,Security Check of Departure Ga,SG,41.0,60,41.0,60,219.0,63.0,60,63.0,60,57.0
+2026-03-14,21,T1,2,Security Check of Departure Ga,SG,11.0,60,11.0,60,219.0,43.0,60,43.0,60,57.0
+2026-03-14,22,T1,2,Security Check of Departure Ga,SG,4.0,60,4.0,60,219.0,46.0,60,46.0,60,57.0
+2026-03-14,23,T1,2,Security Check of Departure Ga,SG,1.0,60,1.0,60,219.0,51.0,60,51.0,60,57.0
+2026-03-09,0,T1,3,Security Check of Departure Ga,SG,7596.0,60,7596.0,60,1259.1,686.0,60,686.0,60,106.0
+2026-03-09,1,T1,3,Security Check of Departure Ga,SG,490.0,60,490.0,60,1259.1,34.0,60,34.0,60,106.0
+2026-03-09,2,T1,3,Security Check of Departure Ga,SG,1335.0,60,1335.0,60,1259.1,134.0,60,134.0,60,106.0
+2026-03-09,3,T1,3,Security Check of Departure Ga,SG,3453.0,60,3453.0,60,1259.1,316.0,60,316.0,60,106.0
+2026-03-09,4,T1,3,Security Check of Departure Ga,SG,23613.0,60,23613.0,60,1259.1,4170.0,60,3948.0,58,106.0
+2026-03-09,5,T1,3,Security Check of Departure Ga,SG,36920.0,60,36920.0,60,1259.1,5480.0,60,4556.0,52,106.0
+2026-03-09,6,T1,3,Security Check of Departure Ga,SG,19945.0,60,19945.0,60,1259.1,3223.0,60,2636.0,55,106.0
+2026-03-09,7,T1,3,Security Check of Departure Ga,SG,17654.0,60,17654.0,60,1259.1,1933.0,60,1933.0,60,106.0
+2026-03-09,8,T1,3,Security Check of Departure Ga,SG,22886.0,60,22886.0,60,1259.1,3142.0,60,3142.0,60,106.0
+2026-03-09,9,T1,3,Security Check of Departure Ga,SG,32235.0,60,32235.0,60,1259.1,5114.0,60,4203.0,52,106.0
+2026-03-09,10,T1,3,Security Check of Departure Ga,SG,39478.0,60,39478.0,60,1259.1,5392.0,60,4727.0,54,106.0
+2026-03-09,11,T1,3,Security Check of Departure Ga,SG,44325.0,60,44325.0,60,1259.1,5609.0,60,3914.0,45,106.0
+2026-03-09,12,T1,3,Security Check of Departure Ga,SG,50282.0,60,50282.0,60,1259.1,6167.0,60,3250.0,34,106.0
+2026-03-09,13,T1,3,Security Check of Departure Ga,SG,43333.0,60,43333.0,60,1259.1,6009.0,60,3996.0,42,106.0
+2026-03-09,14,T1,3,Security Check of Departure Ga,SG,36218.0,60,36218.0,60,1259.1,4340.0,60,3204.0,50,106.0
+2026-03-09,15,T1,3,Security Check of Departure Ga,SG,19532.0,60,19532.0,60,1259.1,2061.0,60,2061.0,60,106.0
+2026-03-09,16,T1,3,Security Check of Departure Ga,SG,10824.0,60,10824.0,60,1259.1,1226.0,60,1226.0,60,106.0
+2026-03-09,17,T1,3,Security Check of Departure Ga,SG,10293.0,60,10293.0,60,1259.1,918.0,60,918.0,60,106.0
+2026-03-09,18,T1,3,Security Check of Departure Ga,SG,23869.0,60,23869.0,60,1259.1,3105.0,60,3105.0,60,106.0
+2026-03-09,19,T1,3,Security Check of Departure Ga,SG,8011.0,60,8011.0,60,1259.1,626.0,60,626.0,60,106.0
+2026-03-09,20,T1,3,Security Check of Departure Ga,SG,47730.0,60,45156.0,58,1259.1,4364.0,60,3905.0,56,106.0
+2026-03-09,21,T1,3,Security Check of Departure Ga,SG,23982.0,60,23982.0,60,1259.1,1448.0,60,1448.0,60,106.0
+2026-03-09,22,T1,3,Security Check of Departure Ga,SG,11012.0,60,11012.0,60,1259.1,619.0,60,619.0,60,106.0
+2026-03-09,23,T1,3,Security Check of Departure Ga,SG,6309.0,60,6309.0,60,1259.1,563.0,60,563.0,60,106.0
+2026-03-10,0,T1,3,Security Check of Departure Ga,SG,10489.0,60,10489.0,60,1259.1,569.0,60,569.0,60,106.0
+2026-03-10,1,T1,3,Security Check of Departure Ga,SG,1506.0,60,1506.0,60,1259.1,66.0,60,66.0,60,106.0
+2026-03-10,2,T1,3,Security Check of Departure Ga,SG,539.0,60,539.0,60,1259.1,48.0,60,48.0,60,106.0
+2026-03-10,3,T1,3,Security Check of Departure Ga,SG,7100.0,60,7100.0,60,1259.1,412.0,60,412.0,60,106.0
+2026-03-10,4,T1,3,Security Check of Departure Ga,SG,24509.0,60,24509.0,60,1259.1,3850.0,60,3409.0,56,106.0
+2026-03-10,5,T1,3,Security Check of Departure Ga,SG,38860.0,60,38860.0,60,1259.1,6610.0,60,2383.0,25,106.0
+2026-03-10,6,T1,3,Security Check of Departure Ga,SG,17049.0,60,17049.0,60,1259.1,2566.0,60,1334.0,49,106.0
+2026-03-10,7,T1,3,Security Check of Departure Ga,SG,12137.0,60,12137.0,60,1259.1,1237.0,60,1237.0,60,106.0
+2026-03-10,8,T1,3,Security Check of Departure Ga,SG,14552.0,60,14552.0,60,1259.1,2373.0,60,2373.0,60,106.0
+2026-03-10,9,T1,3,Security Check of Departure Ga,SG,28395.0,60,28395.0,60,1259.1,3967.0,60,3967.0,60,106.0
+2026-03-10,10,T1,3,Security Check of Departure Ga,SG,41321.0,60,41321.0,60,1259.1,5511.0,60,5400.0,59,106.0
+2026-03-10,11,T1,3,Security Check of Departure Ga,SG,44635.0,60,44635.0,60,1259.1,5146.0,60,4919.0,58,106.0
+2026-03-10,12,T1,3,Security Check of Departure Ga,SG,41234.0,60,41234.0,60,1259.1,4680.0,60,4680.0,60,106.0
+2026-03-10,13,T1,3,Security Check of Departure Ga,SG,8082.0,60,8082.0,60,1259.1,694.0,60,694.0,60,106.0
+2026-03-10,14,T1,3,Security Check of Departure Ga,SG,39501.0,60,39501.0,60,1259.1,3751.0,60,3751.0,60,106.0
+2026-03-10,15,T1,3,Security Check of Departure Ga,SG,13679.0,60,13679.0,60,1259.1,1161.0,60,1161.0,60,106.0
+2026-03-10,16,T1,3,Security Check of Departure Ga,SG,5943.0,60,5943.0,60,1259.1,500.0,60,500.0,60,106.0
+2026-03-10,17,T1,3,Security Check of Departure Ga,SG,8138.0,60,8138.0,60,1259.1,934.0,60,934.0,60,106.0
+2026-03-10,18,T1,3,Security Check of Departure Ga,SG,9188.0,60,9188.0,60,1259.1,1112.0,60,1112.0,60,106.0
+2026-03-10,19,T1,3,Security Check of Departure Ga,SG,3827.0,60,3827.0,60,1259.1,275.0,60,275.0,60,106.0
+2026-03-10,20,T1,3,Security Check of Departure Ga,SG,5668.0,60,5668.0,60,1259.1,451.0,60,451.0,60,106.0
+2026-03-10,21,T1,3,Security Check of Departure Ga,SG,8619.0,60,8619.0,60,1259.1,506.0,60,506.0,60,106.0
+2026-03-10,22,T1,3,Security Check of Departure Ga,SG,6141.0,60,6141.0,60,1259.1,328.0,60,328.0,60,106.0
+2026-03-10,23,T1,3,Security Check of Departure Ga,SG,5597.0,60,5597.0,60,1259.1,502.0,60,502.0,60,106.0
+2026-03-11,0,T1,3,Security Check of Departure Ga,SG,1981.0,60,1981.0,60,1259.1,146.0,60,146.0,60,106.0
+2026-03-11,1,T1,3,Security Check of Departure Ga,SG,256.0,60,256.0,60,1259.1,18.0,60,18.0,60,106.0
+2026-03-11,2,T1,3,Security Check of Departure Ga,SG,1317.0,60,1317.0,60,1259.1,120.0,60,120.0,60,106.0
+2026-03-11,3,T1,3,Security Check of Departure Ga,SG,2958.0,60,2958.0,60,1259.1,278.0,60,278.0,60,106.0
+2026-03-11,4,T1,3,Security Check of Departure Ga,SG,14859.0,60,14859.0,60,1259.1,3771.0,60,3443.0,57,106.0
+2026-03-11,5,T1,3,Security Check of Departure Ga,SG,21053.0,60,21053.0,60,1259.1,4670.0,60,3095.0,46,106.0
+2026-03-11,6,T1,3,Security Check of Departure Ga,SG,21990.0,60,21990.0,60,1259.1,2945.0,60,2837.0,59,106.0
+2026-03-11,7,T1,3,Security Check of Departure Ga,SG,13689.0,60,13689.0,60,1259.1,1088.0,60,1088.0,60,106.0
+2026-03-11,8,T1,3,Security Check of Departure Ga,SG,12949.0,60,12949.0,60,1259.1,1464.0,60,1464.0,60,106.0
+2026-03-11,9,T1,3,Security Check of Departure Ga,SG,39377.0,60,39377.0,60,1259.1,5156.0,60,4361.0,53,106.0
+2026-03-11,10,T1,3,Security Check of Departure Ga,SG,48011.0,60,48011.0,60,1259.1,5981.0,60,4044.0,43,106.0
+2026-03-11,11,T1,3,Security Check of Departure Ga,SG,46852.0,60,46852.0,60,1259.1,5043.0,60,4935.0,59,106.0
+2026-03-11,12,T1,3,Security Check of Departure Ga,SG,34684.0,60,34684.0,60,1259.1,3837.0,60,3837.0,60,106.0
+2026-03-11,13,T1,3,Security Check of Departure Ga,SG,11537.0,60,11537.0,60,1259.1,1060.0,60,1060.0,60,106.0
+2026-03-11,14,T1,3,Security Check of Departure Ga,SG,26176.0,60,26176.0,60,1259.1,3243.0,60,3243.0,60,106.0
+2026-03-11,15,T1,3,Security Check of Departure Ga,SG,35298.0,60,35298.0,60,1259.1,3491.0,60,3491.0,60,106.0
+2026-03-11,16,T1,3,Security Check of Departure Ga,SG,6216.0,60,6216.0,60,1259.1,518.0,60,518.0,60,106.0
+2026-03-11,17,T1,3,Security Check of Departure Ga,SG,4266.0,60,4266.0,60,1259.1,536.0,60,536.0,60,106.0
+2026-03-11,18,T1,3,Security Check of Departure Ga,SG,6179.0,60,6179.0,60,1259.1,635.0,60,635.0,60,106.0
+2026-03-11,19,T1,3,Security Check of Departure Ga,SG,4224.0,60,4224.0,60,1259.1,389.0,60,389.0,60,106.0
+2026-03-11,20,T1,3,Security Check of Departure Ga,SG,15038.0,60,15038.0,60,1259.1,1440.0,60,1440.0,60,106.0
+2026-03-11,21,T1,3,Security Check of Departure Ga,SG,6781.0,60,6781.0,60,1259.1,634.0,60,634.0,60,106.0
+2026-03-11,22,T1,3,Security Check of Departure Ga,SG,10391.0,60,10391.0,60,1259.1,799.0,60,799.0,60,106.0
+2026-03-11,23,T1,3,Security Check of Departure Ga,SG,3800.0,60,3800.0,60,1259.1,425.0,60,425.0,60,106.0
+2026-03-12,0,T1,3,Security Check of Departure Ga,SG,5760.0,60,5760.0,60,1259.1,489.0,60,489.0,60,106.0
+2026-03-12,1,T1,3,Security Check of Departure Ga,SG,441.0,60,441.0,60,1259.1,17.0,60,17.0,60,106.0
+2026-03-12,2,T1,3,Security Check of Departure Ga,SG,2538.0,60,2538.0,60,1259.1,186.0,60,186.0,60,106.0
+2026-03-12,3,T1,3,Security Check of Departure Ga,SG,3464.0,60,3464.0,60,1259.1,410.0,60,410.0,60,106.0
+2026-03-12,4,T1,3,Security Check of Departure Ga,SG,23496.0,60,23496.0,60,1259.1,4495.0,60,3807.0,54,106.0
+2026-03-12,5,T1,3,Security Check of Departure Ga,SG,32403.0,60,32403.0,60,1259.1,5750.0,60,4172.0,46,106.0
+2026-03-12,6,T1,3,Security Check of Departure Ga,SG,18197.0,60,18197.0,60,1259.1,2206.0,60,1183.0,51,106.0
+2026-03-12,7,T1,3,Security Check of Departure Ga,SG,36186.0,60,33594.0,58,1259.1,1798.0,60,1798.0,60,106.0
+2026-03-12,8,T1,3,Security Check of Departure Ga,SG,28689.0,60,28689.0,60,1259.1,1595.0,60,1595.0,60,106.0
+2026-03-12,9,T1,3,Security Check of Departure Ga,SG,48034.0,60,48034.0,60,1259.1,4309.0,60,4092.0,58,106.0
+2026-03-12,10,T1,3,Security Check of Departure Ga,SG,27027.0,60,27027.0,60,1259.1,2254.0,60,2254.0,60,106.0
+2026-03-12,11,T1,3,Security Check of Departure Ga,SG,37601.0,60,37601.0,60,1259.1,3030.0,60,3030.0,60,106.0
+2026-03-12,12,T1,3,Security Check of Departure Ga,SG,54059.0,60,51461.0,58,1259.1,3297.0,60,3297.0,60,106.0
+2026-03-12,13,T1,3,Security Check of Departure Ga,SG,15513.0,60,15513.0,60,1259.1,1165.0,60,1165.0,60,106.0
+2026-03-12,14,T1,3,Security Check of Departure Ga,SG,20391.0,60,20391.0,60,1259.1,1793.0,60,1793.0,60,106.0
+2026-03-12,15,T1,3,Security Check of Departure Ga,SG,43662.0,60,43662.0,60,1259.1,4263.0,60,4263.0,60,106.0
+2026-03-12,16,T1,3,Security Check of Departure Ga,SG,16814.0,60,16814.0,60,1259.1,980.0,60,980.0,60,106.0
+2026-03-12,17,T1,3,Security Check of Departure Ga,SG,15847.0,60,15847.0,60,1259.1,888.0,60,888.0,60,106.0
+2026-03-12,18,T1,3,Security Check of Departure Ga,SG,13962.0,60,13962.0,60,1259.1,962.0,60,962.0,60,106.0
+2026-03-12,19,T1,3,Security Check of Departure Ga,SG,11331.0,60,11331.0,60,1259.1,844.0,60,844.0,60,106.0
+2026-03-12,20,T1,3,Security Check of Departure Ga,SG,19560.0,60,19560.0,60,1259.1,713.0,60,713.0,60,106.0
+2026-03-12,21,T1,3,Security Check of Departure Ga,SG,16512.0,60,16512.0,60,1259.1,544.0,60,544.0,60,106.0
+2026-03-12,22,T1,3,Security Check of Departure Ga,SG,19525.0,60,19525.0,60,1259.1,933.0,60,933.0,60,106.0
+2026-03-12,23,T1,3,Security Check of Departure Ga,SG,10872.0,60,10872.0,60,1259.1,932.0,60,932.0,60,106.0
+2026-03-13,0,T1,3,Security Check of Departure Ga,SG,24238.0,60,24238.0,60,1259.1,789.0,60,789.0,60,106.0
+2026-03-13,1,T1,3,Security Check of Departure Ga,SG,20853.0,60,20853.0,60,1259.1,218.0,60,218.0,60,106.0
+2026-03-13,2,T1,3,Security Check of Departure Ga,SG,980.0,60,980.0,60,1259.1,98.0,60,98.0,60,106.0
+2026-03-13,3,T1,3,Security Check of Departure Ga,SG,7563.0,60,7563.0,60,1259.1,314.0,60,314.0,60,106.0
+2026-03-13,4,T1,3,Security Check of Departure Ga,SG,23649.0,60,23649.0,60,1259.1,3787.0,60,3556.0,58,106.0
+2026-03-13,5,T1,3,Security Check of Departure Ga,SG,40503.0,60,40503.0,60,1259.1,6361.0,60,2549.0,27,106.0
+2026-03-13,6,T1,3,Security Check of Departure Ga,SG,17464.0,60,17464.0,60,1259.1,2608.0,60,2119.0,56,106.0
+2026-03-13,7,T1,3,Security Check of Departure Ga,SG,17240.0,60,17240.0,60,1259.1,1528.0,60,1528.0,60,106.0
+2026-03-13,8,T1,3,Security Check of Departure Ga,SG,40543.0,60,40543.0,60,1259.1,3311.0,60,3311.0,60,106.0
+2026-03-13,9,T1,3,Security Check of Departure Ga,SG,39355.0,60,39355.0,60,1259.1,3500.0,60,3500.0,60,106.0
+2026-03-13,10,T1,3,Security Check of Departure Ga,SG,69431.0,60,42282.0,41,1259.1,5610.0,60,4087.0,47,106.0
+2026-03-13,11,T1,3,Security Check of Departure Ga,SG,68886.0,60,48599.0,46,1259.1,4464.0,60,4464.0,60,106.0
+2026-03-13,12,T1,3,Security Check of Departure Ga,SG,84034.0,60,12231.0,11,1259.1,4982.0,60,4873.0,59,106.0
+2026-03-13,13,T1,3,Security Check of Departure Ga,SG,79068.0,60,26105.0,23,1259.1,3899.0,60,3792.0,59,106.0
+2026-03-13,14,T1,3,Security Check of Departure Ga,SG,83856.0,60,19057.0,23,1259.1,5171.0,60,4846.0,57,106.0
+2026-03-13,15,T1,3,Security Check of Departure Ga,SG,110288.0,60,0,0,1259.1,4729.0,60,4622.0,59,106.0
+2026-03-13,16,T1,3,Security Check of Departure Ga,SG,19234.0,60,6633.0,54,1259.1,273.0,60,273.0,60,106.0
+2026-03-13,17,T1,3,Security Check of Departure Ga,SG,8548.0,60,8548.0,60,1259.1,564.0,60,564.0,60,106.0
+2026-03-13,18,T1,3,Security Check of Departure Ga,SG,11256.0,60,11256.0,60,1259.1,529.0,60,529.0,60,106.0
+2026-03-13,19,T1,3,Security Check of Departure Ga,SG,9917.0,60,9917.0,60,1259.1,604.0,60,604.0,60,106.0
+2026-03-13,20,T1,3,Security Check of Departure Ga,SG,21724.0,60,21724.0,60,1259.1,1437.0,60,1437.0,60,106.0
+2026-03-13,21,T1,3,Security Check of Departure Ga,SG,14012.0,60,14012.0,60,1259.1,762.0,60,762.0,60,106.0
+2026-03-13,22,T1,3,Security Check of Departure Ga,SG,13166.0,60,13166.0,60,1259.1,666.0,60,666.0,60,106.0
+2026-03-13,23,T1,3,Security Check of Departure Ga,SG,11817.0,60,11817.0,60,1259.1,582.0,60,582.0,60,106.0
+2026-03-14,0,T1,3,Security Check of Departure Ga,SG,14817.0,60,14817.0,60,1259.1,853.0,60,853.0,60,106.0
+2026-03-14,1,T1,3,Security Check of Departure Ga,SG,418.0,60,418.0,60,1259.1,29.0,60,29.0,60,106.0
+2026-03-14,2,T1,3,Security Check of Departure Ga,SG,574.0,60,574.0,60,1259.1,79.0,60,79.0,60,106.0
+2026-03-14,3,T1,3,Security Check of Departure Ga,SG,4811.0,60,4811.0,60,1259.1,337.0,60,337.0,60,106.0
+2026-03-14,4,T1,3,Security Check of Departure Ga,SG,33750.0,60,33750.0,60,1259.1,4630.0,60,3025.0,46,106.0
+2026-03-14,5,T1,3,Security Check of Departure Ga,SG,39795.0,60,39795.0,60,1259.1,6481.0,60,2635.0,27,106.0
+2026-03-14,6,T1,3,Security Check of Departure Ga,SG,17197.0,60,17197.0,60,1259.1,2340.0,60,1782.0,55,106.0
+2026-03-14,7,T1,3,Security Check of Departure Ga,SG,13191.0,60,13191.0,60,1259.1,1217.0,60,1217.0,60,106.0
+2026-03-14,8,T1,3,Security Check of Departure Ga,SG,16223.0,60,16223.0,60,1259.1,1978.0,60,1978.0,60,106.0
+2026-03-14,9,T1,3,Security Check of Departure Ga,SG,46964.0,60,46964.0,60,1259.1,4182.0,60,3843.0,57,106.0
+2026-03-14,10,T1,3,Security Check of Departure Ga,SG,57809.0,60,53990.0,57,1259.1,3834.0,60,3834.0,60,106.0
+2026-03-14,11,T1,3,Security Check of Departure Ga,SG,98591.0,60,12557.0,15,1259.1,6002.0,60,2989.0,34,106.0
+2026-03-14,12,T1,3,Security Check of Departure Ga,SG,190480.0,60,0,0,1259.1,6755.0,60,1918.0,19,106.0
+2026-03-14,13,T1,3,Security Check of Departure Ga,SG,177981.0,60,0,0,1259.1,5267.0,60,3190.0,42,106.0
+2026-03-14,14,T1,3,Security Check of Departure Ga,SG,51295.0,60,50032.0,59,1259.1,4525.0,60,4525.0,60,106.0
+2026-03-14,15,T1,3,Security Check of Departure Ga,SG,86441.0,60,24500.0,26,1259.1,4269.0,60,4157.0,59,106.0
+2026-03-14,16,T1,3,Security Check of Departure Ga,SG,11461.0,60,9751.0,59,1259.1,653.0,60,653.0,60,106.0
+2026-03-14,17,T1,3,Security Check of Departure Ga,SG,18188.0,60,18188.0,60,1259.1,1388.0,60,1388.0,60,106.0
+2026-03-14,18,T1,3,Security Check of Departure Ga,SG,16343.0,60,16343.0,60,1259.1,1094.0,60,1094.0,60,106.0
+2026-03-14,19,T1,3,Security Check of Departure Ga,SG,9177.0,60,9177.0,60,1259.1,662.0,60,662.0,60,106.0
+2026-03-14,20,T1,3,Security Check of Departure Ga,SG,10491.0,60,10491.0,60,1259.1,1263.0,60,1263.0,60,106.0
+2026-03-14,21,T1,3,Security Check of Departure Ga,SG,9427.0,60,9427.0,60,1259.1,836.0,60,836.0,60,106.0
+2026-03-14,22,T1,3,Security Check of Departure Ga,SG,14180.0,60,14180.0,60,1259.1,1704.0,60,1704.0,60,106.0
+2026-03-14,23,T1,3,Security Check of Departure Ga,SG,7325.0,60,7325.0,60,1259.1,448.0,60,448.0,60,106.0
+2026-03-09,0,T1,4,Security Check of Departure Ga,SG,0.0,60,0.0,60,562.0,23.0,60,23.0,60,135.0
+2026-03-09,1,T1,4,Security Check of Departure Ga,SG,800.0,60,800.0,60,562.0,43.0,60,43.0,60,135.0
+2026-03-09,2,T1,4,Security Check of Departure Ga,SG,0.0,60,0.0,60,562.0,23.0,60,23.0,60,135.0
+2026-03-09,3,T1,4,Security Check of Departure Ga,SG,0.0,60,0.0,60,562.0,42.0,60,42.0,60,135.0
+2026-03-09,4,T1,4,Security Check of Departure Ga,SG,0.0,60,0.0,60,562.0,37.0,60,37.0,60,135.0
+2026-03-09,5,T1,4,Security Check of Departure Ga,SG,297.0,60,297.0,60,562.0,45.0,60,45.0,60,135.0
+2026-03-09,6,T1,4,Security Check of Departure Ga,SG,2618.0,60,2618.0,60,562.0,503.0,60,503.0,60,135.0
+2026-03-09,7,T1,4,Security Check of Departure Ga,SG,7004.0,60,7004.0,60,562.0,1335.0,60,1335.0,60,135.0
+2026-03-09,8,T1,4,Security Check of Departure Ga,SG,7152.0,60,7152.0,60,562.0,1727.0,60,1727.0,60,135.0
+2026-03-09,9,T1,4,Security Check of Departure Ga,SG,21114.0,60,21114.0,60,562.0,5836.0,60,5836.0,60,135.0
+2026-03-09,10,T1,4,Security Check of Departure Ga,SG,25876.0,60,25876.0,60,562.0,7504.0,60,6248.0,51,135.0
+2026-03-09,11,T1,4,Security Check of Departure Ga,SG,34577.0,60,12207.0,23,562.0,7741.0,60,5072.0,41,135.0
+2026-03-09,12,T1,4,Security Check of Departure Ga,SG,36372.0,60,12826.0,25,562.0,7315.0,60,6762.0,56,135.0
+2026-03-09,13,T1,4,Security Check of Departure Ga,SG,25054.0,60,23822.0,58,562.0,7064.0,60,6785.0,58,135.0
+2026-03-09,14,T1,4,Security Check of Departure Ga,SG,24482.0,60,23888.0,59,562.0,5042.0,60,5042.0,60,135.0
+2026-03-09,15,T1,4,Security Check of Departure Ga,SG,8248.0,60,8248.0,60,562.0,1303.0,60,1303.0,60,135.0
+2026-03-09,16,T1,4,Security Check of Departure Ga,SG,6556.0,60,6556.0,60,562.0,930.0,60,930.0,60,135.0
+2026-03-09,17,T1,4,Security Check of Departure Ga,SG,5600.0,60,5600.0,60,562.0,691.0,60,691.0,60,135.0
+2026-03-09,18,T1,4,Security Check of Departure Ga,SG,5900.0,60,5900.0,60,562.0,680.0,60,680.0,60,135.0
+2026-03-09,19,T1,4,Security Check of Departure Ga,SG,5400.0,60,5400.0,60,562.0,574.0,60,574.0,60,135.0
+2026-03-09,20,T1,4,Security Check of Departure Ga,SG,5684.0,60,3995.0,57,562.0,100.0,60,100.0,60,135.0
+2026-03-09,21,T1,4,Security Check of Departure Ga,SG,2593.0,60,341.0,56,562.0,70.0,60,70.0,60,135.0
+2026-03-09,22,T1,4,Security Check of Departure Ga,SG,281.0,60,281.0,60,562.0,29.0,60,29.0,60,135.0
+2026-03-09,23,T1,4,Security Check of Departure Ga,SG,0.0,60,0.0,60,562.0,2.0,60,2.0,60,135.0
+2026-03-10,0,T1,4,Security Check of Departure Ga,SG,36.0,60,36.0,60,562.0,52.0,60,52.0,60,135.0
+2026-03-10,1,T1,4,Security Check of Departure Ga,SG,6500.0,60,6500.0,60,562.0,59.0,60,59.0,60,135.0
+2026-03-10,2,T1,4,Security Check of Departure Ga,SG,11901.0,60,10739.0,58,562.0,84.0,60,84.0,60,135.0
+2026-03-10,3,T1,4,Security Check of Departure Ga,SG,135.0,60,135.0,60,562.0,10.0,60,10.0,60,135.0
+2026-03-10,4,T1,4,Security Check of Departure Ga,SG,103.0,60,103.0,60,562.0,30.0,60,30.0,60,135.0
+2026-03-10,5,T1,4,Security Check of Departure Ga,SG,365.0,60,365.0,60,562.0,26.0,60,26.0,60,135.0
+2026-03-10,6,T1,4,Security Check of Departure Ga,SG,2543.0,60,2543.0,60,562.0,380.0,60,380.0,60,135.0
+2026-03-10,7,T1,4,Security Check of Departure Ga,SG,4232.0,60,4232.0,60,562.0,702.0,60,702.0,60,135.0
+2026-03-10,8,T1,4,Security Check of Departure Ga,SG,7090.0,60,7090.0,60,562.0,1549.0,60,1549.0,60,135.0
+2026-03-10,9,T1,4,Security Check of Departure Ga,SG,20623.0,60,18867.0,57,562.0,5198.0,60,5198.0,60,135.0
+2026-03-10,10,T1,4,Security Check of Departure Ga,SG,28295.0,60,24721.0,54,562.0,6415.0,60,5861.0,56,135.0
+2026-03-10,11,T1,4,Security Check of Departure Ga,SG,29981.0,60,25358.0,52,562.0,6924.0,60,6924.0,60,135.0
+2026-03-10,12,T1,4,Security Check of Departure Ga,SG,28403.0,60,28403.0,60,562.0,6812.0,60,6675.0,59,135.0
+2026-03-10,13,T1,4,Security Check of Departure Ga,SG,22587.0,60,22587.0,60,562.0,5382.0,60,5382.0,60,135.0
+2026-03-10,14,T1,4,Security Check of Departure Ga,SG,9210.0,60,9210.0,60,562.0,1615.0,60,1615.0,60,135.0
+2026-03-10,15,T1,4,Security Check of Departure Ga,SG,6818.0,60,6818.0,60,562.0,980.0,60,980.0,60,135.0
+2026-03-10,16,T1,4,Security Check of Departure Ga,SG,4672.0,60,4672.0,60,562.0,495.0,60,495.0,60,135.0
+2026-03-10,17,T1,4,Security Check of Departure Ga,SG,5078.0,60,5078.0,60,562.0,536.0,60,536.0,60,135.0
+2026-03-10,18,T1,4,Security Check of Departure Ga,SG,4538.0,60,4538.0,60,562.0,433.0,60,433.0,60,135.0
+2026-03-10,19,T1,4,Security Check of Departure Ga,SG,5736.0,60,5736.0,60,562.0,639.0,60,639.0,60,135.0
+2026-03-10,20,T1,4,Security Check of Departure Ga,SG,1985.0,60,1985.0,60,562.0,64.0,60,64.0,60,135.0
+2026-03-10,21,T1,4,Security Check of Departure Ga,SG,440.0,60,440.0,60,562.0,40.0,60,40.0,60,135.0
+2026-03-10,22,T1,4,Security Check of Departure Ga,SG,73.0,60,73.0,60,562.0,9.0,60,9.0,60,135.0
+2026-03-10,23,T1,4,Security Check of Departure Ga,SG,0.0,60,0.0,60,562.0,32.0,60,32.0,60,135.0
+2026-03-11,0,T1,4,Security Check of Departure Ga,SG,765.0,60,765.0,60,562.0,61.0,60,61.0,60,135.0
+2026-03-11,1,T1,4,Security Check of Departure Ga,SG,6241.0,60,826.0,52,562.0,60.0,60,60.0,60,135.0
+2026-03-11,2,T1,4,Security Check of Departure Ga,SG,5571.0,60,5571.0,60,562.0,58.0,60,58.0,60,135.0
+2026-03-11,3,T1,4,Security Check of Departure Ga,SG,6630.0,60,6630.0,60,562.0,59.0,60,59.0,60,135.0
+2026-03-11,4,T1,4,Security Check of Departure Ga,SG,1062.0,60,1062.0,60,562.0,28.0,60,28.0,60,135.0
+2026-03-11,5,T1,4,Security Check of Departure Ga,SG,344.0,60,344.0,60,562.0,29.0,60,29.0,60,135.0
+2026-03-11,6,T1,4,Security Check of Departure Ga,SG,2713.0,60,2713.0,60,562.0,465.0,60,465.0,60,135.0
+2026-03-11,7,T1,4,Security Check of Departure Ga,SG,6640.0,60,6640.0,60,562.0,1419.0,60,1419.0,60,135.0
+2026-03-11,8,T1,4,Security Check of Departure Ga,SG,6676.0,60,6676.0,60,562.0,1416.0,60,1416.0,60,135.0
+2026-03-11,9,T1,4,Security Check of Departure Ga,SG,25284.0,60,24716.0,59,562.0,6255.0,60,6255.0,60,135.0
+2026-03-11,10,T1,4,Security Check of Departure Ga,SG,34954.0,60,13886.0,27,562.0,7112.0,60,6549.0,56,135.0
+2026-03-11,11,T1,4,Security Check of Departure Ga,SG,30616.0,60,21138.0,45,562.0,6654.0,60,6373.0,58,135.0
+2026-03-11,12,T1,4,Security Check of Departure Ga,SG,31496.0,60,19684.0,41,562.0,7226.0,60,6657.0,56,135.0
+2026-03-11,13,T1,4,Security Check of Departure Ga,SG,22584.0,60,20808.0,57,562.0,4709.0,60,4709.0,60,135.0
+2026-03-11,14,T1,4,Security Check of Departure Ga,SG,10292.0,60,10292.0,60,562.0,1797.0,60,1797.0,60,135.0
+2026-03-11,15,T1,4,Security Check of Departure Ga,SG,9974.0,60,9974.0,60,562.0,1737.0,60,1737.0,60,135.0
+2026-03-11,16,T1,4,Security Check of Departure Ga,SG,5742.0,60,5742.0,60,562.0,608.0,60,608.0,60,135.0
+2026-03-11,17,T1,4,Security Check of Departure Ga,SG,4846.0,60,4846.0,60,562.0,523.0,60,523.0,60,135.0
+2026-03-11,18,T1,4,Security Check of Departure Ga,SG,5946.0,60,5946.0,60,562.0,804.0,60,804.0,60,135.0
+2026-03-11,19,T1,4,Security Check of Departure Ga,SG,5866.0,60,5866.0,60,562.0,882.0,60,882.0,60,135.0
+2026-03-11,20,T1,4,Security Check of Departure Ga,SG,2993.0,60,2993.0,60,562.0,45.0,60,45.0,60,135.0
+2026-03-11,21,T1,4,Security Check of Departure Ga,SG,0.0,60,0.0,60,562.0,51.0,60,51.0,60,135.0
+2026-03-11,22,T1,4,Security Check of Departure Ga,SG,4087.0,60,4087.0,60,562.0,55.0,60,55.0,60,135.0
+2026-03-11,23,T1,4,Security Check of Departure Ga,SG,2317.0,60,2317.0,60,562.0,56.0,60,56.0,60,135.0
+2026-03-12,0,T1,4,Security Check of Departure Ga,SG,7.0,60,7.0,60,562.0,65.0,60,65.0,60,135.0
+2026-03-12,1,T1,4,Security Check of Departure Ga,SG,223.0,60,223.0,60,562.0,14.0,60,14.0,60,135.0
+2026-03-12,2,T1,4,Security Check of Departure Ga,SG,0.0,60,0.0,60,562.0,0.0,60,0.0,60,135.0
+2026-03-12,3,T1,4,Security Check of Departure Ga,SG,117.0,60,117.0,60,562.0,48.0,60,48.0,60,135.0
+2026-03-12,4,T1,4,Security Check of Departure Ga,SG,5557.0,60,5557.0,60,562.0,59.0,60,59.0,60,135.0
+2026-03-12,5,T1,4,Security Check of Departure Ga,SG,2251.0,60,2251.0,60,562.0,24.0,60,24.0,60,135.0
+2026-03-12,6,T1,4,Security Check of Departure Ga,SG,2119.0,60,2119.0,60,562.0,353.0,60,353.0,60,135.0
+2026-03-12,7,T1,4,Security Check of Departure Ga,SG,4566.0,60,4566.0,60,562.0,871.0,60,871.0,60,135.0
+2026-03-12,8,T1,4,Security Check of Departure Ga,SG,6342.0,60,6342.0,60,562.0,1541.0,60,1541.0,60,135.0
+2026-03-12,9,T1,4,Security Check of Departure Ga,SG,14050.0,60,14050.0,60,562.0,3877.0,60,3877.0,60,135.0
+2026-03-12,10,T1,4,Security Check of Departure Ga,SG,19256.0,60,18676.0,59,562.0,4727.0,60,4447.0,58,135.0
+2026-03-12,11,T1,4,Security Check of Departure Ga,SG,23755.0,60,23755.0,60,562.0,6536.0,60,6536.0,60,135.0
+2026-03-12,12,T1,4,Security Check of Departure Ga,SG,26097.0,60,24941.0,58,562.0,6664.0,60,6664.0,60,135.0
+2026-03-12,13,T1,4,Security Check of Departure Ga,SG,15414.0,60,15414.0,60,562.0,3802.0,60,3802.0,60,135.0
+2026-03-12,14,T1,4,Security Check of Departure Ga,SG,7918.0,60,7918.0,60,562.0,1401.0,60,1401.0,60,135.0
+2026-03-12,15,T1,4,Security Check of Departure Ga,SG,6168.0,60,6168.0,60,562.0,938.0,60,938.0,60,135.0
+2026-03-12,16,T1,4,Security Check of Departure Ga,SG,5478.0,60,5478.0,60,562.0,712.0,60,712.0,60,135.0
+2026-03-12,17,T1,4,Security Check of Departure Ga,SG,5171.0,60,5171.0,60,562.0,621.0,60,621.0,60,135.0
+2026-03-12,18,T1,4,Security Check of Departure Ga,SG,6080.0,60,6080.0,60,562.0,726.0,60,726.0,60,135.0
+2026-03-12,19,T1,4,Security Check of Departure Ga,SG,7150.0,60,7150.0,60,562.0,1284.0,60,1284.0,60,135.0
+2026-03-12,20,T1,4,Security Check of Departure Ga,SG,1265.0,60,1265.0,60,562.0,51.0,60,51.0,60,135.0
+2026-03-12,21,T1,4,Security Check of Departure Ga,SG,716.0,60,716.0,60,562.0,71.0,60,71.0,60,135.0
+2026-03-12,22,T1,4,Security Check of Departure Ga,SG,9346.0,60,9346.0,60,562.0,77.0,60,77.0,60,135.0
+2026-03-12,23,T1,4,Security Check of Departure Ga,SG,1240.0,60,1240.0,60,562.0,55.0,60,55.0,60,135.0
+2026-03-13,0,T1,4,Security Check of Departure Ga,SG,243.0,60,243.0,60,562.0,57.0,60,57.0,60,135.0
+2026-03-13,1,T1,4,Security Check of Departure Ga,SG,7645.0,60,7645.0,60,562.0,80.0,60,80.0,60,135.0
+2026-03-13,2,T1,4,Security Check of Departure Ga,SG,4875.0,60,4875.0,60,562.0,61.0,60,61.0,60,135.0
+2026-03-13,3,T1,4,Security Check of Departure Ga,SG,5146.0,60,5146.0,60,562.0,78.0,60,78.0,60,135.0
+2026-03-13,4,T1,4,Security Check of Departure Ga,SG,6389.0,60,6389.0,60,562.0,60.0,60,60.0,60,135.0
+2026-03-13,5,T1,4,Security Check of Departure Ga,SG,1333.0,60,1333.0,60,562.0,51.0,60,51.0,60,135.0
+2026-03-13,6,T1,4,Security Check of Departure Ga,SG,2582.0,60,2582.0,60,562.0,462.0,60,462.0,60,135.0
+2026-03-13,7,T1,4,Security Check of Departure Ga,SG,6262.0,60,6262.0,60,562.0,1314.0,60,1314.0,60,135.0
+2026-03-13,8,T1,4,Security Check of Departure Ga,SG,5852.0,60,5852.0,60,562.0,1336.0,60,1336.0,60,135.0
+2026-03-13,9,T1,4,Security Check of Departure Ga,SG,18415.0,60,18415.0,60,562.0,4986.0,60,4986.0,60,135.0
+2026-03-13,10,T1,4,Security Check of Departure Ga,SG,17754.0,60,17754.0,60,562.0,5442.0,60,5442.0,60,135.0
+2026-03-13,11,T1,4,Security Check of Departure Ga,SG,31287.0,60,19673.0,41,562.0,8180.0,60,3824.0,31,135.0
+2026-03-13,12,T1,4,Security Check of Departure Ga,SG,34041.0,60,14647.0,28,562.0,8926.0,60,1059.0,8,135.0
+2026-03-13,13,T1,4,Security Check of Departure Ga,SG,33832.0,60,14390.0,28,562.0,8503.0,60,2528.0,20,135.0
+2026-03-13,14,T1,4,Security Check of Departure Ga,SG,12974.0,60,10520.0,56,562.0,3143.0,60,2437.0,55,135.0
+2026-03-13,15,T1,4,Security Check of Departure Ga,SG,13208.0,60,13208.0,60,562.0,2676.0,60,2676.0,60,135.0
+2026-03-13,16,T1,4,Security Check of Departure Ga,SG,5714.0,60,5714.0,60,562.0,730.0,60,730.0,60,135.0
+2026-03-13,17,T1,4,Security Check of Departure Ga,SG,4463.0,60,4463.0,60,562.0,413.0,60,413.0,60,135.0
+2026-03-13,18,T1,4,Security Check of Departure Ga,SG,3455.0,60,3455.0,60,562.0,376.0,60,376.0,60,135.0
+2026-03-13,19,T1,4,Security Check of Departure Ga,SG,4353.0,60,4353.0,60,562.0,505.0,60,505.0,60,135.0
+2026-03-13,20,T1,4,Security Check of Departure Ga,SG,1398.0,60,1398.0,60,562.0,83.0,60,83.0,60,135.0
+2026-03-13,21,T1,4,Security Check of Departure Ga,SG,1025.0,60,1025.0,60,562.0,57.0,60,57.0,60,135.0
+2026-03-13,22,T1,4,Security Check of Departure Ga,SG,9647.0,60,9647.0,60,562.0,63.0,60,63.0,60,135.0
+2026-03-13,23,T1,4,Security Check of Departure Ga,SG,7635.0,60,7635.0,60,562.0,60.0,60,60.0,60,135.0
+2026-03-14,0,T1,4,Security Check of Departure Ga,SG,4445.0,60,4445.0,60,562.0,57.0,60,57.0,60,135.0
+2026-03-14,1,T1,4,Security Check of Departure Ga,SG,10632.0,60,10632.0,60,562.0,79.0,60,79.0,60,135.0
+2026-03-14,2,T1,4,Security Check of Departure Ga,SG,6776.0,60,6205.0,59,562.0,71.0,60,71.0,60,135.0
+2026-03-14,3,T1,4,Security Check of Departure Ga,SG,12043.0,60,12043.0,60,562.0,58.0,60,58.0,60,135.0
+2026-03-14,4,T1,4,Security Check of Departure Ga,SG,1708.0,60,1708.0,60,562.0,46.0,60,46.0,60,135.0
+2026-03-14,5,T1,4,Security Check of Departure Ga,SG,233.0,60,233.0,60,562.0,41.0,60,41.0,60,135.0
+2026-03-14,6,T1,4,Security Check of Departure Ga,SG,2576.0,60,2576.0,60,562.0,373.0,60,373.0,60,135.0
+2026-03-14,7,T1,4,Security Check of Departure Ga,SG,4614.0,60,4614.0,60,562.0,917.0,60,917.0,60,135.0
+2026-03-14,8,T1,4,Security Check of Departure Ga,SG,7158.0,60,7158.0,60,562.0,2022.0,60,2022.0,60,135.0
+2026-03-14,9,T1,4,Security Check of Departure Ga,SG,32200.0,60,16436.0,34,562.0,8204.0,60,3555.0,28,135.0
+2026-03-14,10,T1,4,Security Check of Departure Ga,SG,29242.0,60,26266.0,55,562.0,8782.0,60,1172.0,9,135.0
+2026-03-14,11,T1,4,Security Check of Departure Ga,SG,35341.0,60,8473.0,16,562.0,8351.0,60,2459.0,19,135.0
+2026-03-14,12,T1,4,Security Check of Departure Ga,SG,38182.0,60,2164.0,4,562.0,9094.0,60,660.0,5,135.0
+2026-03-14,13,T1,4,Security Check of Departure Ga,SG,31013.0,60,22181.0,45,562.0,9037.0,60,268.0,2,135.0
+2026-03-14,14,T1,4,Security Check of Departure Ga,SG,18759.0,60,16437.0,56,562.0,3528.0,60,3388.0,59,135.0
+2026-03-14,15,T1,4,Security Check of Departure Ga,SG,8370.0,60,8370.0,60,562.0,1513.0,60,1513.0,60,135.0
+2026-03-14,16,T1,4,Security Check of Departure Ga,SG,6028.0,60,6028.0,60,562.0,886.0,60,886.0,60,135.0
+2026-03-14,17,T1,4,Security Check of Departure Ga,SG,7070.0,60,7070.0,60,562.0,1026.0,60,1026.0,60,135.0
+2026-03-14,18,T1,4,Security Check of Departure Ga,SG,5628.0,60,5628.0,60,562.0,781.0,60,781.0,60,135.0
+2026-03-14,19,T1,4,Security Check of Departure Ga,SG,12506.0,60,12506.0,60,562.0,2131.0,60,2131.0,60,135.0
+2026-03-14,20,T1,4,Security Check of Departure Ga,SG,1390.0,60,1390.0,60,562.0,61.0,60,61.0,60,135.0
+2026-03-14,21,T1,4,Security Check of Departure Ga,SG,1.0,60,1.0,60,562.0,62.0,60,62.0,60,135.0
+2026-03-14,22,T1,4,Security Check of Departure Ga,SG,1092.0,60,1092.0,60,562.0,51.0,60,51.0,60,135.0
+2026-03-14,23,T1,4,Security Check of Departure Ga,SG,0.0,60,0.0,60,562.0,56.0,60,56.0,60,135.0
+2026-03-09,0,T1,5,Security Check of Departure Ga,SG,1959.0,60,1959.0,60,682.0,42.0,60,42.0,60,175.0
+2026-03-09,1,T1,5,Security Check of Departure Ga,SG,806.0,60,806.0,60,682.0,39.0,60,39.0,60,175.0
+2026-03-09,2,T1,5,Security Check of Departure Ga,SG,375.0,60,375.0,60,682.0,42.0,60,42.0,60,175.0
+2026-03-09,3,T1,5,Security Check of Departure Ga,SG,449.0,60,449.0,60,682.0,47.0,60,47.0,60,175.0
+2026-03-09,4,T1,5,Security Check of Departure Ga,SG,670.0,60,670.0,60,682.0,30.0,60,30.0,60,175.0
+2026-03-09,5,T1,5,Security Check of Departure Ga,SG,16334.0,60,16334.0,60,682.0,6640.0,60,6640.0,60,175.0
+2026-03-09,6,T1,5,Security Check of Departure Ga,SG,7418.0,60,7418.0,60,682.0,2380.0,60,2380.0,60,175.0
+2026-03-09,7,T1,5,Security Check of Departure Ga,SG,11824.0,60,11824.0,60,682.0,3229.0,60,3229.0,60,175.0
+2026-03-09,8,T1,5,Security Check of Departure Ga,SG,17666.0,60,17666.0,60,682.0,5702.0,60,5702.0,60,175.0
+2026-03-09,9,T1,5,Security Check of Departure Ga,SG,29730.0,60,29730.0,60,682.0,9815.0,60,9094.0,56,175.0
+2026-03-09,10,T1,5,Security Check of Departure Ga,SG,31289.0,60,31289.0,60,682.0,10692.0,60,3451.0,21,175.0
+2026-03-09,11,T1,5,Security Check of Departure Ga,SG,43154.0,60,9960.0,15,682.0,10791.0,60,3491.0,21,175.0
+2026-03-09,12,T1,5,Security Check of Departure Ga,SG,47234.0,60,4024.0,6,682.0,11440.0,60,517.0,3,175.0
+2026-03-09,13,T1,5,Security Check of Departure Ga,SG,38206.0,60,28482.0,46,682.0,10558.0,60,4588.0,28,175.0
+2026-03-09,14,T1,5,Security Check of Departure Ga,SG,37865.0,60,11719.0,24,682.0,8221.0,60,4911.0,42,175.0
+2026-03-09,15,T1,5,Security Check of Departure Ga,SG,8228.0,60,8228.0,60,682.0,1555.0,60,1555.0,60,175.0
+2026-03-09,16,T1,5,Security Check of Departure Ga,SG,9560.0,60,9560.0,60,682.0,1361.0,60,1361.0,60,175.0
+2026-03-09,17,T1,5,Security Check of Departure Ga,SG,16248.0,60,16248.0,60,682.0,2857.0,60,2857.0,60,175.0
+2026-03-09,18,T1,5,Security Check of Departure Ga,SG,7758.0,60,7758.0,60,682.0,1289.0,60,1289.0,60,175.0
+2026-03-09,19,T1,5,Security Check of Departure Ga,SG,9792.0,60,9792.0,60,682.0,1981.0,60,1981.0,60,175.0
+2026-03-09,20,T1,5,Security Check of Departure Ga,SG,10540.0,60,10540.0,60,682.0,2775.0,60,2775.0,60,175.0
+2026-03-09,21,T1,5,Security Check of Departure Ga,SG,5326.0,60,5326.0,60,682.0,719.0,60,719.0,60,175.0
+2026-03-09,22,T1,5,Security Check of Departure Ga,SG,319.0,60,319.0,60,682.0,32.0,60,32.0,60,175.0
+2026-03-09,23,T1,5,Security Check of Departure Ga,SG,0.0,60,0.0,60,682.0,0.0,60,0.0,60,175.0
+2026-03-10,0,T1,5,Security Check of Departure Ga,SG,3.0,60,3.0,60,682.0,1.0,60,1.0,60,175.0
+2026-03-10,1,T1,5,Security Check of Departure Ga,SG,3.0,60,3.0,60,682.0,0.0,60,0.0,60,175.0
+2026-03-10,2,T1,5,Security Check of Departure Ga,SG,15.0,60,15.0,60,682.0,0.0,60,0.0,60,175.0
+2026-03-10,3,T1,5,Security Check of Departure Ga,SG,1.0,60,1.0,60,682.0,0.0,60,0.0,60,175.0
+2026-03-10,4,T1,5,Security Check of Departure Ga,SG,274.0,60,274.0,60,682.0,22.0,60,22.0,60,175.0
+2026-03-10,5,T1,5,Security Check of Departure Ga,SG,18512.0,60,18512.0,60,682.0,6926.0,60,6188.0,56,175.0
+2026-03-10,6,T1,5,Security Check of Departure Ga,SG,5894.0,60,5894.0,60,682.0,1482.0,60,1482.0,60,175.0
+2026-03-10,7,T1,5,Security Check of Departure Ga,SG,6952.0,60,6952.0,60,682.0,1413.0,60,1413.0,60,175.0
+2026-03-10,8,T1,5,Security Check of Departure Ga,SG,18376.0,60,18376.0,60,682.0,5416.0,60,5416.0,60,175.0
+2026-03-10,9,T1,5,Security Check of Departure Ga,SG,29219.0,60,29219.0,60,682.0,8487.0,60,8487.0,60,175.0
+2026-03-10,10,T1,5,Security Check of Departure Ga,SG,28494.0,60,28494.0,60,682.0,8603.0,60,8603.0,60,175.0
+2026-03-10,11,T1,5,Security Check of Departure Ga,SG,39313.0,60,27627.0,44,682.0,9128.0,60,8952.0,59,175.0
+2026-03-10,12,T1,5,Security Check of Departure Ga,SG,29905.0,60,29905.0,60,682.0,8737.0,60,8737.0,60,175.0
+2026-03-10,13,T1,5,Security Check of Departure Ga,SG,32947.0,60,27253.0,52,682.0,7367.0,60,7367.0,60,175.0
+2026-03-10,14,T1,5,Security Check of Departure Ga,SG,8248.0,60,8248.0,60,682.0,1461.0,60,1461.0,60,175.0
+2026-03-10,15,T1,5,Security Check of Departure Ga,SG,12144.0,60,12144.0,60,682.0,2958.0,60,2958.0,60,175.0
+2026-03-10,16,T1,5,Security Check of Departure Ga,SG,7660.0,60,7660.0,60,682.0,1073.0,60,1073.0,60,175.0
+2026-03-10,17,T1,5,Security Check of Departure Ga,SG,7178.0,60,7178.0,60,682.0,1174.0,60,1174.0,60,175.0
+2026-03-10,18,T1,5,Security Check of Departure Ga,SG,9223.0,60,9223.0,60,682.0,1705.0,60,1705.0,60,175.0
+2026-03-10,19,T1,5,Security Check of Departure Ga,SG,27239.0,60,27239.0,60,682.0,6398.0,60,6398.0,60,175.0
+2026-03-10,20,T1,5,Security Check of Departure Ga,SG,9912.0,60,9912.0,60,682.0,2205.0,60,2205.0,60,175.0
+2026-03-10,21,T1,5,Security Check of Departure Ga,SG,3811.0,60,3811.0,60,682.0,402.0,60,402.0,60,175.0
+2026-03-10,22,T1,5,Security Check of Departure Ga,SG,364.0,60,364.0,60,682.0,36.0,60,36.0,60,175.0
+2026-03-10,23,T1,5,Security Check of Departure Ga,SG,46.0,60,46.0,60,682.0,3.0,60,3.0,60,175.0
+2026-03-11,0,T1,5,Security Check of Departure Ga,SG,1.0,60,1.0,60,682.0,0.0,60,0.0,60,175.0
+2026-03-11,1,T1,5,Security Check of Departure Ga,SG,8.0,60,8.0,60,682.0,0.0,60,0.0,60,175.0
+2026-03-11,2,T1,5,Security Check of Departure Ga,SG,14.0,60,14.0,60,682.0,2.0,60,2.0,60,175.0
+2026-03-11,3,T1,5,Security Check of Departure Ga,SG,0.0,60,0.0,60,682.0,0.0,60,0.0,60,175.0
+2026-03-11,4,T1,5,Security Check of Departure Ga,SG,161.0,60,161.0,60,682.0,17.0,60,17.0,60,175.0
+2026-03-11,5,T1,5,Security Check of Departure Ga,SG,6209.0,60,6209.0,60,682.0,1787.0,60,1787.0,60,175.0
+2026-03-11,6,T1,5,Security Check of Departure Ga,SG,10082.0,60,10082.0,60,682.0,3377.0,60,3377.0,60,175.0
+2026-03-11,7,T1,5,Security Check of Departure Ga,SG,6648.0,60,6648.0,60,682.0,1582.0,60,1582.0,60,175.0
+2026-03-11,8,T1,5,Security Check of Departure Ga,SG,15282.0,60,15282.0,60,682.0,5322.0,60,5322.0,60,175.0
+2026-03-11,9,T1,5,Security Check of Departure Ga,SG,11480.0,60,11480.0,60,682.0,3722.0,60,3722.0,60,175.0
+2026-03-11,10,T1,5,Security Check of Departure Ga,SG,22758.0,60,22758.0,60,682.0,7267.0,60,7267.0,60,175.0
+2026-03-11,11,T1,5,Security Check of Departure Ga,SG,36203.0,60,30513.0,52,682.0,8928.0,60,8751.0,59,175.0
+2026-03-11,12,T1,5,Security Check of Departure Ga,SG,32986.0,60,32986.0,60,682.0,8451.0,60,8451.0,60,175.0
+2026-03-11,13,T1,5,Security Check of Departure Ga,SG,34153.0,60,34153.0,60,682.0,8127.0,60,8127.0,60,175.0
+2026-03-11,14,T1,5,Security Check of Departure Ga,SG,9999.0,60,9999.0,60,682.0,1890.0,60,1890.0,60,175.0
+2026-03-11,15,T1,5,Security Check of Departure Ga,SG,8988.0,60,8988.0,60,682.0,1589.0,60,1589.0,60,175.0
+2026-03-11,16,T1,5,Security Check of Departure Ga,SG,8066.0,60,8066.0,60,682.0,1169.0,60,1169.0,60,175.0
+2026-03-11,17,T1,5,Security Check of Departure Ga,SG,9656.0,60,9656.0,60,682.0,1919.0,60,1919.0,60,175.0
+2026-03-11,18,T1,5,Security Check of Departure Ga,SG,10268.0,60,10268.0,60,682.0,2143.0,60,2143.0,60,175.0
+2026-03-11,19,T1,5,Security Check of Departure Ga,SG,18386.0,60,18386.0,60,682.0,5125.0,60,5125.0,60,175.0
+2026-03-11,20,T1,5,Security Check of Departure Ga,SG,6548.0,60,6548.0,60,682.0,1316.0,60,1316.0,60,175.0
+2026-03-11,21,T1,5,Security Check of Departure Ga,SG,7676.0,60,7676.0,60,682.0,1240.0,60,1240.0,60,175.0
+2026-03-11,22,T1,5,Security Check of Departure Ga,SG,373.0,60,373.0,60,682.0,36.0,60,36.0,60,175.0
+2026-03-11,23,T1,5,Security Check of Departure Ga,SG,1.0,60,1.0,60,682.0,0.0,60,0.0,60,175.0
+2026-03-12,0,T1,5,Security Check of Departure Ga,SG,7.0,60,7.0,60,682.0,0.0,60,0.0,60,175.0
+2026-03-12,1,T1,5,Security Check of Departure Ga,SG,2.0,60,2.0,60,682.0,1.0,60,1.0,60,175.0
+2026-03-12,2,T1,5,Security Check of Departure Ga,SG,1.0,60,1.0,60,682.0,0.0,60,0.0,60,175.0
+2026-03-12,3,T1,5,Security Check of Departure Ga,SG,4.0,60,4.0,60,682.0,0.0,60,0.0,60,175.0
+2026-03-12,4,T1,5,Security Check of Departure Ga,SG,66.0,60,66.0,60,682.0,8.0,60,8.0,60,175.0
+2026-03-12,5,T1,5,Security Check of Departure Ga,SG,14110.0,60,14110.0,60,682.0,6079.0,60,6079.0,60,175.0
+2026-03-12,6,T1,5,Security Check of Departure Ga,SG,14000.0,60,14000.0,60,682.0,4596.0,60,4596.0,60,175.0
+2026-03-12,7,T1,5,Security Check of Departure Ga,SG,8686.0,60,8686.0,60,682.0,2443.0,60,2443.0,60,175.0
+2026-03-12,8,T1,5,Security Check of Departure Ga,SG,8026.0,60,8026.0,60,682.0,2656.0,60,2656.0,60,175.0
+2026-03-12,9,T1,5,Security Check of Departure Ga,SG,31602.0,60,31602.0,60,682.0,10058.0,60,3874.0,27,175.0
+2026-03-12,10,T1,5,Security Check of Departure Ga,SG,15837.0,60,15837.0,60,682.0,5246.0,60,5246.0,60,175.0
+2026-03-12,11,T1,5,Security Check of Departure Ga,SG,43522.0,60,8172.0,15,682.0,9549.0,60,8434.0,54,175.0
+2026-03-12,12,T1,5,Security Check of Departure Ga,SG,41014.0,60,20404.0,34,682.0,8636.0,60,8636.0,60,175.0
+2026-03-12,13,T1,5,Security Check of Departure Ga,SG,33577.0,60,31467.0,57,682.0,8229.0,60,8229.0,60,175.0
+2026-03-12,14,T1,5,Security Check of Departure Ga,SG,8100.0,60,8100.0,60,682.0,1460.0,60,1460.0,60,175.0
+2026-03-12,15,T1,5,Security Check of Departure Ga,SG,12581.0,60,12581.0,60,682.0,2695.0,60,2695.0,60,175.0
+2026-03-12,16,T1,5,Security Check of Departure Ga,SG,8044.0,60,8044.0,60,682.0,1137.0,60,1137.0,60,175.0
+2026-03-12,17,T1,5,Security Check of Departure Ga,SG,9324.0,60,9324.0,60,682.0,1723.0,60,1723.0,60,175.0
+2026-03-12,18,T1,5,Security Check of Departure Ga,SG,12030.0,60,12030.0,60,682.0,3056.0,60,3056.0,60,175.0
+2026-03-12,19,T1,5,Security Check of Departure Ga,SG,35002.0,60,35002.0,60,682.0,8796.0,60,8796.0,60,175.0
+2026-03-12,20,T1,5,Security Check of Departure Ga,SG,15144.0,60,15144.0,60,682.0,4070.0,60,4070.0,60,175.0
+2026-03-12,21,T1,5,Security Check of Departure Ga,SG,8848.0,60,8848.0,60,682.0,1125.0,60,1125.0,60,175.0
+2026-03-12,22,T1,5,Security Check of Departure Ga,SG,2480.0,60,2480.0,60,682.0,57.0,60,57.0,60,175.0
+2026-03-12,23,T1,5,Security Check of Departure Ga,SG,1106.0,60,1106.0,60,682.0,62.0,60,62.0,60,175.0
+2026-03-13,0,T1,5,Security Check of Departure Ga,SG,3556.0,60,3556.0,60,682.0,65.0,60,65.0,60,175.0
+2026-03-13,1,T1,5,Security Check of Departure Ga,SG,6437.0,60,6437.0,60,682.0,57.0,60,57.0,60,175.0
+2026-03-13,2,T1,5,Security Check of Departure Ga,SG,10224.0,60,10224.0,60,682.0,77.0,60,77.0,60,175.0
+2026-03-13,3,T1,5,Security Check of Departure Ga,SG,247.0,60,247.0,60,682.0,12.0,60,12.0,60,175.0
+2026-03-13,4,T1,5,Security Check of Departure Ga,SG,360.0,60,360.0,60,682.0,29.0,60,29.0,60,175.0
+2026-03-13,5,T1,5,Security Check of Departure Ga,SG,9843.0,60,9843.0,60,682.0,3858.0,60,3858.0,60,175.0
+2026-03-13,6,T1,5,Security Check of Departure Ga,SG,7520.0,60,7520.0,60,682.0,2757.0,60,2757.0,60,175.0
+2026-03-13,7,T1,5,Security Check of Departure Ga,SG,6012.0,60,6012.0,60,682.0,1530.0,60,1530.0,60,175.0
+2026-03-13,8,T1,5,Security Check of Departure Ga,SG,9404.0,60,9404.0,60,682.0,3218.0,60,3218.0,60,175.0
+2026-03-13,9,T1,5,Security Check of Departure Ga,SG,24218.0,60,24218.0,60,682.0,8828.0,60,8468.0,58,175.0
+2026-03-13,10,T1,5,Security Check of Departure Ga,SG,25071.0,60,25071.0,60,682.0,7771.0,60,7594.0,59,175.0
+2026-03-13,11,T1,5,Security Check of Departure Ga,SG,40568.0,60,11170.0,21,682.0,9604.0,60,7045.0,46,175.0
+2026-03-13,12,T1,5,Security Check of Departure Ga,SG,43188.0,60,11956.0,19,682.0,10817.0,60,4035.0,24,175.0
+2026-03-13,13,T1,5,Security Check of Departure Ga,SG,31729.0,60,28785.0,56,682.0,9577.0,60,7940.0,51,175.0
+2026-03-13,14,T1,5,Security Check of Departure Ga,SG,10144.0,60,10144.0,60,682.0,2019.0,60,2019.0,60,175.0
+2026-03-13,15,T1,5,Security Check of Departure Ga,SG,8444.0,60,8444.0,60,682.0,1827.0,60,1827.0,60,175.0
+2026-03-13,16,T1,5,Security Check of Departure Ga,SG,6214.0,60,6214.0,60,682.0,853.0,60,853.0,60,175.0
+2026-03-13,17,T1,5,Security Check of Departure Ga,SG,6072.0,60,6072.0,60,682.0,1032.0,60,1032.0,60,175.0
+2026-03-13,18,T1,5,Security Check of Departure Ga,SG,9694.0,60,9694.0,60,682.0,1835.0,60,1835.0,60,175.0
+2026-03-13,19,T1,5,Security Check of Departure Ga,SG,8902.0,60,8902.0,60,682.0,2072.0,60,2072.0,60,175.0
+2026-03-13,20,T1,5,Security Check of Departure Ga,SG,5438.0,60,5438.0,60,682.0,1258.0,60,1258.0,60,175.0
+2026-03-13,21,T1,5,Security Check of Departure Ga,SG,6086.0,60,6086.0,60,682.0,837.0,60,837.0,60,175.0
+2026-03-13,22,T1,5,Security Check of Departure Ga,SG,347.0,60,347.0,60,682.0,18.0,60,18.0,60,175.0
+2026-03-13,23,T1,5,Security Check of Departure Ga,SG,1.0,60,1.0,60,682.0,0.0,60,0.0,60,175.0
+2026-03-14,0,T1,5,Security Check of Departure Ga,SG,1.0,60,1.0,60,682.0,1.0,60,1.0,60,175.0
+2026-03-14,1,T1,5,Security Check of Departure Ga,SG,16.0,60,16.0,60,682.0,3.0,60,3.0,60,175.0
+2026-03-14,2,T1,5,Security Check of Departure Ga,SG,2.0,60,2.0,60,682.0,0.0,60,0.0,60,175.0
+2026-03-14,3,T1,5,Security Check of Departure Ga,SG,2.0,60,2.0,60,682.0,0.0,60,0.0,60,175.0
+2026-03-14,4,T1,5,Security Check of Departure Ga,SG,123.0,60,123.0,60,682.0,27.0,60,27.0,60,175.0
+2026-03-14,5,T1,5,Security Check of Departure Ga,SG,20562.0,60,20562.0,60,682.0,9254.0,60,6050.0,43,175.0
+2026-03-14,6,T1,5,Security Check of Departure Ga,SG,16515.0,60,16515.0,60,682.0,5724.0,60,5724.0,60,175.0
+2026-03-14,7,T1,5,Security Check of Departure Ga,SG,7048.0,60,7048.0,60,682.0,1597.0,60,1597.0,60,175.0
+2026-03-14,8,T1,5,Security Check of Departure Ga,SG,20064.0,60,20064.0,60,682.0,6319.0,60,6319.0,60,175.0
+2026-03-14,9,T1,5,Security Check of Departure Ga,SG,29908.0,60,29908.0,60,682.0,9791.0,60,7972.0,50,175.0
+2026-03-14,10,T1,5,Security Check of Departure Ga,SG,31592.0,60,31592.0,60,682.0,9826.0,60,7505.0,47,175.0
+2026-03-14,11,T1,5,Security Check of Departure Ga,SG,44317.0,60,9110.0,14,682.0,10538.0,60,4711.0,28,175.0
+2026-03-14,12,T1,5,Security Check of Departure Ga,SG,43939.0,60,11370.0,18,682.0,10631.0,60,3766.0,23,175.0
+2026-03-14,13,T1,5,Security Check of Departure Ga,SG,30134.0,60,30134.0,60,682.0,9629.0,60,8006.0,51,175.0
+2026-03-14,14,T1,5,Security Check of Departure Ga,SG,15322.0,60,15322.0,60,682.0,2832.0,60,2832.0,60,175.0
+2026-03-14,15,T1,5,Security Check of Departure Ga,SG,12580.0,60,12580.0,60,682.0,2515.0,60,2515.0,60,175.0
+2026-03-14,16,T1,5,Security Check of Departure Ga,SG,11110.0,60,11110.0,60,682.0,1940.0,60,1940.0,60,175.0
+2026-03-14,17,T1,5,Security Check of Departure Ga,SG,8030.0,60,8030.0,60,682.0,1459.0,60,1459.0,60,175.0
+2026-03-14,18,T1,5,Security Check of Departure Ga,SG,17047.0,60,17047.0,60,682.0,3829.0,60,3829.0,60,175.0
+2026-03-14,19,T1,5,Security Check of Departure Ga,SG,29461.0,60,26585.0,56,682.0,9192.0,60,7919.0,53,175.0
+2026-03-14,20,T1,5,Security Check of Departure Ga,SG,16939.0,60,16939.0,60,682.0,4859.0,60,4859.0,60,175.0
+2026-03-14,21,T1,5,Security Check of Departure Ga,SG,7742.0,60,7742.0,60,682.0,1099.0,60,1099.0,60,175.0
+2026-03-14,22,T1,5,Security Check of Departure Ga,SG,113.0,60,113.0,60,682.0,12.0,60,12.0,60,175.0
+2026-03-14,23,T1,5,Security Check of Departure Ga,SG,2.0,60,2.0,60,682.0,1.0,60,1.0,60,175.0
+2026-03-09,0,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-09,1,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-09,2,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-09,3,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-09,4,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-09,5,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-09,6,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-09,7,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-09,8,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,4.0,60,2.0,59,1.0
+2026-03-09,9,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,8.0,60,8.0,60,1.0
+2026-03-09,10,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,5.0,60,5.0,60,1.0
+2026-03-09,11,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,1.0,60,1.0,60,1.0
+2026-03-09,12,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-09,13,T1,6,Security Check of Departure Ga,SG,369.0,60,0.0,51,0.0,56.0,60,3.0,52,1.0
+2026-03-09,14,T1,6,Security Check of Departure Ga,SG,20.0,60,0.0,56,0.0,16.0,60,11.0,58,1.0
+2026-03-09,15,T1,6,Security Check of Departure Ga,SG,1.0,60,0.0,59,0.0,4.0,60,2.0,59,1.0
+2026-03-09,16,T1,6,Security Check of Departure Ga,SG,2.0,60,0.0,59,0.0,0.0,60,0.0,60,1.0
+2026-03-09,17,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-09,18,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,1.0,60,1.0,60,1.0
+2026-03-09,19,T1,6,Security Check of Departure Ga,SG,144.0,60,0.0,53,0.0,22.0,60,7.0,53,1.0
+2026-03-09,20,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,55.0,60,6.0,45,1.0
+2026-03-09,21,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,125.0,60,5.0,26,1.0
+2026-03-09,22,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,64.0,60,1.0,42,1.0
+2026-03-09,23,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-10,0,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-10,1,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-10,2,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-10,3,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-10,4,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-10,5,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-10,6,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-10,7,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-10,8,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-10,9,T1,6,Security Check of Departure Ga,SG,10.0,60,0.0,58,0.0,6.0,60,0.0,59,1.0
+2026-03-10,10,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,5.0,60,2.0,59,1.0
+2026-03-10,11,T1,6,Security Check of Departure Ga,SG,1.0,60,0.0,59,0.0,18.0,60,4.0,57,1.0
+2026-03-10,12,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-10,13,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,4.0,60,0.0,58,1.0
+2026-03-10,14,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,9.0,60,1.0,57,1.0
+2026-03-10,15,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,9.0,60,2.0,59,1.0
+2026-03-10,16,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-10,17,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,1.0,60,1.0,60,1.0
+2026-03-10,18,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,1.0,60,1.0,60,1.0
+2026-03-10,19,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,5.0,60,5.0,60,1.0
+2026-03-10,20,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,195.0,60,15.0,16,1.0
+2026-03-10,21,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,179.0,60,0.0,26,1.0
+2026-03-10,22,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-10,23,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-11,0,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-11,1,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-11,2,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-11,3,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-11,4,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-11,5,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-11,6,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-11,7,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-11,8,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-11,9,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,10.0,60,1.0,57,1.0
+2026-03-11,10,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,3.0,60,3.0,60,1.0
+2026-03-11,11,T1,6,Security Check of Departure Ga,SG,544.0,60,0.0,35,0.0,40.0,60,20.0,51,1.0
+2026-03-11,12,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,14.0,60,14.0,60,1.0
+2026-03-11,13,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-11,14,T1,6,Security Check of Departure Ga,SG,930.0,60,0.0,42,0.0,47.0,60,6.0,45,1.0
+2026-03-11,15,T1,6,Security Check of Departure Ga,SG,21.0,60,0.0,59,0.0,10.0,60,7.0,59,1.0
+2026-03-11,16,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-11,17,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-11,18,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-11,19,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-11,20,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-11,21,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-11,22,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-11,23,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-12,0,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-12,1,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-12,2,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-12,3,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-12,4,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-12,5,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-12,6,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-12,7,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-12,8,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,3.0,60,1.0,59,1.0
+2026-03-12,9,T1,6,Security Check of Departure Ga,SG,2617.0,60,0.0,35,0.0,76.0,60,21.0,43,1.0
+2026-03-12,10,T1,6,Security Check of Departure Ga,SG,4604.0,60,0.0,34,0.0,75.0,60,22.0,40,1.0
+2026-03-12,11,T1,6,Security Check of Departure Ga,SG,5013.0,60,0.0,28,0.0,107.0,60,5.0,32,1.0
+2026-03-12,12,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,1.0,60,1.0,60,1.0
+2026-03-12,13,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,16.0,60,14.0,59,1.0
+2026-03-12,14,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,8.0,60,8.0,60,1.0
+2026-03-12,15,T1,6,Security Check of Departure Ga,SG,26.0,60,0.0,58,0.0,6.0,60,6.0,60,1.0
+2026-03-12,16,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,10.0,60,4.0,58,1.0
+2026-03-12,17,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-12,18,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-12,19,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-12,20,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-12,21,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-12,22,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-12,23,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-13,0,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-13,1,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-13,2,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-13,3,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-13,4,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-13,5,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-13,6,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-13,7,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-13,8,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,4.0,60,4.0,60,1.0
+2026-03-13,9,T1,6,Security Check of Departure Ga,SG,4123.0,60,0.0,49,0.0,352.0,60,10.0,24,1.0
+2026-03-13,10,T1,6,Security Check of Departure Ga,SG,54671.0,60,0.0,14,0.0,1755.0,60,1.0,16,1.0
+2026-03-13,11,T1,6,Security Check of Departure Ga,SG,17418.0,60,0.0,16,0.0,1451.0,60,2.0,19,1.0
+2026-03-13,12,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-13,13,T1,6,Security Check of Departure Ga,SG,6.0,60,0.0,58,0.0,41.0,60,1.0,44,1.0
+2026-03-13,14,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,1.0,60,1.0,60,1.0
+2026-03-13,15,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,1.0,60,1.0,60,1.0
+2026-03-13,16,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-13,17,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-13,18,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-13,19,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-13,20,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-13,21,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-13,22,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-13,23,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-14,0,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-14,1,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-14,2,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-14,3,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-14,4,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-14,5,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-14,6,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-14,7,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-14,8,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-14,9,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-14,10,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-14,11,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-14,12,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,1.0,60,1.0,60,1.0
+2026-03-14,13,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-14,14,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-14,15,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-14,16,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-14,17,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-14,18,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-14,19,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-14,20,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-14,21,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-14,22,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-14,23,T1,6,Security Check of Departure Ga,SG,0.0,60,0.0,60,0.0,0.0,60,0.0,60,1.0
+2026-03-09,0,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,1,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,240.0,60,240.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,2,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,232.0,60,232.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,3,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,4,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1960.0,60,1960.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,5,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,6,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,7,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,8,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,9,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,10,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,11,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,12,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,13,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,14,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,15,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3540.0,59,3540.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-09,16,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,17,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,18,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,19,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,494.0,60,494.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,20,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,21,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,22,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,23,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,0,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,1,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,240.0,60,240.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,2,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,232.0,60,232.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,3,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,4,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1960.0,60,1960.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,5,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,6,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,7,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,8,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,9,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,10,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,11,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,12,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,13,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,14,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,15,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,16,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,17,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,18,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1770.0,59,1770.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-10,19,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,494.0,60,494.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,20,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,21,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,22,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,23,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,0,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,1,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,240.0,60,240.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,2,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,232.0,60,232.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,3,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,4,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1960.0,60,1960.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,5,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,6,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,7,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,8,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,9,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,10,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1778.0,60,1778.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,11,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,12,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,13,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,14,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,15,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,16,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,17,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,18,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,19,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,494.0,60,494.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,20,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,21,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,464.0,59,464.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-11,22,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,23,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,0,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,1,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,240.0,60,240.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,2,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,232.0,60,232.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,3,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,4,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1960.0,60,1960.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,5,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,6,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,7,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,8,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,9,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,10,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,11,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,12,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,13,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,14,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,15,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,16,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,17,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,18,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,19,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,494.0,60,494.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,20,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,21,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,22,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,23,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,0,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,1,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,240.0,60,240.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,2,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,232.0,59,232.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-13,3,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,4,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1960.0,60,1960.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,5,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,6,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,7,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,8,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,9,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,10,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,11,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,12,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,13,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,14,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,15,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,16,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,17,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,18,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,19,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,494.0,60,494.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,20,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,21,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,22,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,23,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,0,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,1,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,240.0,60,240.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,2,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,232.0,60,232.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,3,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,4,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1960.0,60,1960.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,5,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,6,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3540.0,59,3540.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-14,7,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,8,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,9,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,10,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,11,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,12,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,13,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,14,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,15,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,16,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,17,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,18,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,19,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,494.0,60,494.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,20,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,21,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,22,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,23,T2,1,1A,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,0,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,1,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,240.0,60,240.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,2,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,232.0,60,232.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,3,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,4,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1960.0,60,1960.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,5,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,6,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,7,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,8,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,9,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,10,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,11,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,12,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,13,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,14,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,15,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3540.0,59,3540.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-09,16,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,17,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,18,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,19,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,494.0,60,494.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,20,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,21,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,22,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,23,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,0,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,1,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,240.0,60,240.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,2,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,232.0,60,232.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,3,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,4,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1960.0,60,1960.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,5,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,6,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,7,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,8,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,9,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,10,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,11,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,12,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,13,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,14,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,15,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,16,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,17,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,18,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1770.0,59,1770.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-10,19,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,494.0,60,494.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,20,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,21,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,22,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,23,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,0,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,1,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,240.0,60,240.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,2,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,232.0,60,232.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,3,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,4,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1960.0,60,1960.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,5,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,6,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,7,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,8,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,9,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,10,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1778.0,60,1778.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,11,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,12,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,13,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,14,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,15,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,16,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,17,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,18,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,19,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,494.0,60,494.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,20,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,21,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,464.0,59,464.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-11,22,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,23,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,0,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,1,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,240.0,60,240.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,2,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,232.0,60,232.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,3,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,4,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1960.0,60,1960.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,5,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,6,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,7,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,8,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,9,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,10,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,11,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,12,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,13,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,14,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,15,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,16,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,17,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,18,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,19,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,494.0,60,494.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,20,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,21,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,22,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,23,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,0,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,1,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,240.0,60,240.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,2,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,232.0,59,232.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-13,3,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,4,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1960.0,60,1960.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,5,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,6,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,7,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,8,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,9,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,10,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,11,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,12,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,13,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,14,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,15,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,16,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,17,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,18,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,19,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,494.0,60,494.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,20,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,21,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,22,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,23,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,0,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,1,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,240.0,60,240.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,2,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,232.0,60,232.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,3,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,4,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1960.0,60,1960.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,5,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,6,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3540.0,59,3540.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-14,7,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,8,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,9,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,10,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,11,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,12,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,13,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,14,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,15,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,16,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,17,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,18,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,19,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,494.0,60,494.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,20,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,21,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,22,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,23,T2,1,1B,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,0,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,1,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,180.0,60,180.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,2,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,174.0,60,174.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,3,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,4,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1900.0,60,1900.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,5,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,6,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,7,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,8,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,2126.0,60,2126.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,9,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,10,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,11,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,12,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,13,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,14,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3526.0,60,3526.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,15,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3540.0,59,3540.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-09,16,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,17,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,18,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,19,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,378.0,60,378.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,20,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,21,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,22,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,23,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,0,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,1,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,180.0,60,180.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,2,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,174.0,60,174.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,3,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,4,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1900.0,60,1900.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,5,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,6,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,7,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,8,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,2126.0,60,2126.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,9,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,10,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,11,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,12,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,13,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,14,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3526.0,60,3526.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,15,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,16,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,17,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,18,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1770.0,59,1770.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-10,19,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,378.0,60,378.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,20,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,21,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,22,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,23,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,0,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,1,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,180.0,60,180.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,2,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,174.0,60,174.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,3,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,4,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1900.0,60,1900.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,5,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,6,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,7,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,8,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,2126.0,60,2126.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,9,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,10,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1776.0,60,1776.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,11,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,12,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,13,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,14,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3526.0,60,3526.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,15,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,16,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,17,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,18,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,19,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,378.0,60,378.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,20,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,21,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,348.0,59,348.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-11,22,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,23,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,0,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,1,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,180.0,60,180.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,2,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,174.0,60,174.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,3,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,4,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1900.0,60,1900.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,5,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,6,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,7,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,8,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,2126.0,60,2126.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,9,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,10,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,11,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,12,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,13,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,14,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3526.0,60,3526.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,15,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,16,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,17,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,18,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,19,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,378.0,60,378.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,20,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,21,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,22,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,23,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,0,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,1,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,180.0,60,180.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,2,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,174.0,59,174.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-13,3,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,4,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1900.0,60,1900.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,5,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,6,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,7,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,8,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,2126.0,60,2126.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,9,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,10,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,11,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,12,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,13,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,14,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3526.0,60,3526.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,15,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,16,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,17,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,18,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,19,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,378.0,60,378.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,20,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,21,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,22,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,23,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,0,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,1,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,180.0,60,180.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,2,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,174.0,60,174.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,3,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,4,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1900.0,60,1900.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,5,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,6,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3540.0,59,3540.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-14,7,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,8,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,2126.0,60,2126.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,9,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,10,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,11,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,12,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,13,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,14,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3526.0,60,3526.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,15,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,16,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,17,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,18,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,19,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,378.0,60,378.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,20,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,21,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,22,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,23,T2,1,1C,XOVIS_ZONE_UNCONFIRMED,354.0,60,354.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,0,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,1,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,240.0,60,240.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,2,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,232.0,60,232.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,3,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,4,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1960.0,60,1960.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,5,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,6,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,7,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,8,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,9,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,10,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,11,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,12,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,13,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,14,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,15,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3540.0,59,3540.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-09,16,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,17,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,18,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,19,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,494.0,60,494.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,20,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,21,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,22,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,23,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,0,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,1,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,240.0,60,240.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,2,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,232.0,60,232.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,3,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,4,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1960.0,60,1960.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,5,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,6,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,7,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,8,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,9,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,10,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,11,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,12,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,13,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,14,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,15,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,16,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,17,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,18,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1770.0,59,1770.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-10,19,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,494.0,60,494.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,20,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,21,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,22,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,23,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,0,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,1,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,240.0,60,240.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,2,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,232.0,60,232.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,3,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,4,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1960.0,60,1960.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,5,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,6,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,7,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,8,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,9,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,10,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1778.0,60,1778.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,11,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,12,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,13,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,14,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,15,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,16,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,17,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,18,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,19,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,494.0,60,494.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,20,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,21,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,464.0,59,464.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-11,22,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,23,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,0,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,1,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,240.0,60,240.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,2,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,232.0,60,232.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,3,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,4,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1960.0,60,1960.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,5,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,6,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,7,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,8,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,9,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,10,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,11,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,12,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,13,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,14,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,15,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,16,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,17,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,18,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,19,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,494.0,60,494.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,20,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,21,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,22,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,23,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,0,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,1,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,240.0,60,240.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,2,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,232.0,59,232.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-13,3,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,4,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1960.0,60,1960.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,5,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,6,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,7,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,8,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,9,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,10,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,11,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,12,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,13,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,14,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,15,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,16,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,17,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,18,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,19,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,494.0,60,494.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,20,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,21,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,22,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,23,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,0,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,1,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,240.0,60,240.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,2,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,232.0,60,232.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,3,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,4,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1960.0,60,1960.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,5,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,6,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3540.0,59,3540.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-14,7,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,8,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,9,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,10,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,11,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,12,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,13,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,14,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,15,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,16,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,17,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,18,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,19,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,494.0,60,494.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,20,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,21,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,22,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,23,T2,1,1D,XOVIS_ZONE_UNCONFIRMED,472.0,60,472.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,0,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,1,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,2,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,3,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,4,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,5,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,6,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,7,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,8,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,9,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,10,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,11,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,12,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,13,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,14,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,15,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,3540.0,59,3540.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-09,16,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,17,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,18,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,19,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,30.0,60,30.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,20,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,21,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,22,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,23,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,0,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,1,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,2,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,3,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,4,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,5,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,6,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,7,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,8,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,9,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,10,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,11,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,12,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,13,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,14,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,15,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,16,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,17,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,18,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1770.0,59,1770.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-10,19,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,30.0,60,30.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,20,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,21,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,22,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,23,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,0,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,1,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,2,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,3,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,4,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,5,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,6,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,7,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,8,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,9,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,10,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,11,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,12,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,13,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,14,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,15,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,16,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,17,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,18,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,19,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,30.0,60,30.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,20,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,21,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,59,0.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-11,22,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,23,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,0,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,1,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,2,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,3,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,4,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,5,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,6,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,7,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,8,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,9,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,10,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,11,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,12,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,13,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,14,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,15,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,16,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,17,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,18,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,19,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,30.0,60,30.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,20,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,21,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,22,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,23,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,0,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,1,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,2,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,59,0.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-13,3,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,4,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,5,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,6,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,7,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,8,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,9,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,10,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,11,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,12,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,13,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,14,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,15,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,16,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,17,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,18,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,19,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,30.0,60,30.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,20,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,21,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,22,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,23,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,0,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,1,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,2,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,3,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,4,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,5,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,6,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,3540.0,59,3540.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-14,7,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,8,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,9,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,10,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,11,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,12,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,13,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,14,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,15,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,16,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,17,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,18,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,19,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,30.0,60,30.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,20,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,21,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,22,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,23,T2,2,2A,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,0,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,1,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,2,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,3,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,4,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,5,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,6,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,7,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,8,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,9,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,10,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,11,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,12,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,13,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,14,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,15,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,3540.0,59,3540.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-09,16,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,17,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,18,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,19,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,30.0,60,30.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,20,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,21,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,22,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,23,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,0,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,1,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,2,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,3,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,4,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,5,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,6,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,7,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,8,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,9,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,10,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,11,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,12,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,13,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,14,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,15,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,16,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,17,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,18,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1770.0,59,1770.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-10,19,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,30.0,60,30.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,20,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,21,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,22,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,23,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,0,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,1,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,2,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,3,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,4,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,5,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,6,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,7,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,8,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,9,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,10,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,11,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,12,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,13,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,14,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,15,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,16,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,17,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,18,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,19,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,30.0,60,30.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,20,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,21,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,59,0.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-11,22,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,23,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,0,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,1,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,2,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,3,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,4,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,5,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,6,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,7,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,8,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,9,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,10,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,11,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,12,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,13,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,14,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,15,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,16,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,17,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,18,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,19,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,30.0,60,30.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,20,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,21,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,22,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,23,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,0,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,1,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,2,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,59,0.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-13,3,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,4,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,5,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,6,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,7,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,8,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,9,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,10,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,11,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,12,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,13,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,14,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,15,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,16,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,17,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,18,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,19,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,30.0,60,30.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,20,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,21,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,22,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,23,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,0,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,1,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,2,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,3,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,4,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,5,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,6,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,3540.0,59,3540.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-14,7,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,8,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,9,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,10,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,11,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,12,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,13,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,14,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,15,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,16,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,17,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,18,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,19,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,30.0,60,30.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,20,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,21,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,22,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,23,T2,2,2B,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,0,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,1,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,2,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,3,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,4,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,5,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,6,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,7,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,8,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,2126.0,60,2126.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,9,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,10,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,11,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,12,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,13,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,14,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,3526.0,60,3526.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,15,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,3540.0,59,3540.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-09,16,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,17,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,18,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,19,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,30.0,60,30.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,20,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,21,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,22,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,23,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,0,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,1,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,2,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,3,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,4,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,5,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,6,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,7,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,8,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,2126.0,60,2126.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,9,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,10,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,11,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,12,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,13,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,14,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,3526.0,60,3526.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,15,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,16,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,17,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,18,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1770.0,59,1770.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-10,19,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,30.0,60,30.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,20,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,21,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,22,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,23,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,0,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,1,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,2,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,3,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,4,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,5,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,6,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,7,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,8,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,2126.0,60,2126.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,9,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,10,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,11,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,12,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,13,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,14,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,3526.0,60,3526.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,15,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,16,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,17,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,18,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,19,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,30.0,60,30.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,20,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,21,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,59,0.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-11,22,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,23,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,0,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,1,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,2,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,3,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,4,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,5,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,6,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,7,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,8,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,2126.0,60,2126.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,9,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,10,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,11,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,12,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,13,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,14,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,3526.0,60,3526.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,15,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,16,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,17,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,18,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,19,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,30.0,60,30.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,20,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,21,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,22,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,23,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,0,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,1,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,2,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,59,0.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-13,3,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,4,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,5,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,6,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,7,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,8,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,2126.0,60,2126.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,9,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,10,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,11,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,12,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,13,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,14,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,3526.0,60,3526.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,15,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,16,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,17,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,18,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,19,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,30.0,60,30.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,20,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,21,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,22,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,23,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,0,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,1,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,2,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,3,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,4,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,5,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,6,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,3540.0,59,3540.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-14,7,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,8,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,2126.0,60,2126.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,9,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,10,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,11,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,12,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,13,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,14,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,3526.0,60,3526.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,15,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,16,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,17,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,18,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,19,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,30.0,60,30.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,20,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,21,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,22,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,23,T2,2,2C,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,0,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,1,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,2,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,3,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,4,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,5,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,6,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,7,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,8,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,9,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,10,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,11,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,12,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,13,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,14,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,15,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,3540.0,59,3540.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-09,16,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,17,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,18,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,19,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,30.0,60,30.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,20,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,21,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,22,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-09,23,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,0,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,1,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,2,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,3,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,4,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,5,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,6,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,7,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,8,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,9,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,10,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,11,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,12,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,13,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,14,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,15,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,16,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,17,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,18,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1770.0,59,1770.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-10,19,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,30.0,60,30.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,20,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,21,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,22,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-10,23,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,0,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,1,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,2,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,3,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,4,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,5,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,6,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,7,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,8,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,9,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,10,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,11,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,12,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,13,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,14,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,15,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,16,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,17,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,18,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,19,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,30.0,60,30.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,20,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,21,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,59,0.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-11,22,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-11,23,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,0,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,1,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,2,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,3,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,4,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,5,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,6,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,7,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,8,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,9,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,10,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,11,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,12,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,13,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,14,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,15,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,16,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,17,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,18,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,19,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,30.0,60,30.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,20,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,21,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,22,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-12,23,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,0,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,1,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,2,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,59,0.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-13,3,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,4,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,5,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,6,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,7,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,8,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,9,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,10,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,11,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,12,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,13,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,14,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,15,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,16,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,17,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,18,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,19,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,30.0,60,30.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,20,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,21,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,22,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-13,23,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,0,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,1,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,2,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,3,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,4,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,5,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,6,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,3540.0,59,3540.0,59,60.0,0.0,59,0.0,59,0.0
+2026-03-14,7,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,8,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,2128.0,60,2128.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,9,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,10,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,11,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,12,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,13,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,14,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,3528.0,60,3528.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,15,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,3600.0,60,3600.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,16,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,2750.0,60,2750.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,17,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,18,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,1800.0,60,1800.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,19,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,30.0,60,30.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,20,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,21,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,22,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
+2026-03-14,23,T2,2,2D,XOVIS_ZONE_UNCONFIRMED,0.0,60,0.0,60,60.0,0.0,60,0.0,60,0.0
